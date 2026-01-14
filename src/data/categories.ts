@@ -6,41 +6,25 @@ interface Category {
 
 export const categories: Category[] = [
   {
-    name: 'Tech',
-    slug: 'tech',
-    description: 'Latest in technology and software development'
+    name: 'Usługodawca',
+    slug: 'uslugodawca',
+    description: 'Materiały przeznaczone dla usługodawców'
   },
   {
-    name: 'Web Development',
-    slug: 'web-development',
-    description: 'Tips and insights for better web development'
+    name: 'Placówka',
+    slug: 'placowka',
+    description: 'Materiały przeznaczone dla administratorów placówek'
   },
   {
-    name: 'Design',
-    slug: 'design',
-    description: 'Exploring design and user experience'
+    name: 'Senior',
+    slug: 'senior',
+    description: 'Materiały przeznaczone dla seniorów'
   },
   {
-    name: 'Accessibility',
-    slug: 'accessibility',
-    description: 'Exploring accessibility and user experience'
-  },
-  {
-    name: 'Theme Usage',
-    slug: 'theme-usage',
-    description: 'Learn how to use the theme'
-  },
-  {
-    name: 'Astro JS',
-    slug: 'astro-js',
-    description: 'Everything about Astro JS framework and development'
-  },
-  {
-    name: 'SEO',
-    slug: 'seo',
-    description: 'Search engine optimization strategies and best practices'
-  },
-  
+    name: 'Poradnik',
+    slug: 'poradnik',
+    description: 'Poradniki pomagające w korzystaniu z naszej platformy'
+  }
 ];
 
 // Helper function to get category by slug

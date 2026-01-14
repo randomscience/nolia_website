@@ -2,6 +2,8 @@
 import { getTextColor, getHeadlineColor, getBackgroundColor, getInputTextColor } from '../../../utils/styleUtils';
 import type { ThemeColor } from '../../../utils/styleUtils';
 
+import {marked} from 'marked'
+
 interface Option {
     label: string;
     value: string;
@@ -61,8 +63,8 @@ const inputTextClass = getInputTextColor(background);
                         <label 
                             for={`${id}-${index}`}
                             class={`text-sm font-medium ${inputTextClass}`}
+                            set:html={marked(option.label)}
                         >
-                            {option.label}
                         </label>
                     </div>
                 ))}
@@ -89,7 +91,7 @@ const inputTextClass = getInputTextColor(background);
                 for={id}
                 class={`text-sm font-medium ${inputTextClass}`}
             >
-                {label}
+                Akceptuje <a href="/legal/terms-of-service">regulamin</a>
                 {required && <span class="text-red-500">*</span>}
             </label>
         </div>

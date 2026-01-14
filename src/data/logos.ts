@@ -2,11 +2,11 @@ import type { ImageMetadata } from 'astro';
 
 // Import your logo images
 // Replace these imports with your actual logo files
-import logo1 from '../assets/images/logos/logoipsum-333.svg';
-import logo2 from '../assets/images/logos/logoipsum-335.svg';
-import logo3 from '../assets/images/logos/logoipsum-344.svg';
-import logo4 from '../assets/images/logos/logoipsum-347.svg';
-import logo5 from '../assets/images/logos/logoipsum-352.svg';
+import logoDecathlon from '../assets/logo-decathlon.png';
+import logoTheKidly from '../assets/logo-thekidly.png';
+import logoFundacjaConnect4Kids from '../assets/logo-fundacja-connect4kids.png';
+import logoKidstation from '../assets/logo-kidstation.webp'
+import logoRandomScience from '../assets/logo-randomscience.webp'
 
 export interface Logo {
     src: ImageMetadata;
@@ -24,25 +24,25 @@ export const logoLists: Record<string, LogoList> = {
         id: 'main',
         logos: [
             {
-                src: logo1,
-                alt: 'Partner 1',
+                src: logoDecathlon,
+                alt: 'Decathlon',
             },
             {
-                src: logo2,
-                alt: 'Partner 2',
+                src: logoTheKidly,
+                alt: 'The Kidly',
             },
             {
-                src: logo3,
-                alt: 'Partner 3',
+                src: logoFundacjaConnect4Kids,
+                alt: 'Fundacja Connect4Kids',
             },
             {
-                src: logo4,
-                alt: 'Partner 4',
+                src: logoKidstation,
+                alt: 'Kidstation',
             },
             {
-                src: logo5,
-                alt: 'Partner 5',
-            },
+                src: logoRandomScience,
+                alt: 'Random Science'
+            }
         ],
     },
 };

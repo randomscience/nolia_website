@@ -58,4 +58,18 @@ const legal = defineCollection({
     }),
 });
 
-export const collections = { blog, team, legal };
+const global = defineCollection({
+    loader: glob({ base: './src/content/pages', pattern: '**/*.md' }),
+    schema: z.object({
+        title: z.string(),
+        lastUpdated: z.string().transform((str) => new Date(str)),
+        seo: z
+            .object({
+                title: z.string().optional(),
+                description: z.string().optional(),
+            })
+            .optional(),
+    }),
+})
+
+export const collections = { blog, team, legal, global };

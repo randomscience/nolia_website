@@ -2,7 +2,7 @@
 import type { Logo } from '@data/logos';
 import Eyebrow from '@components/ui/Eyebrow.astro';
 import { Image } from 'astro:assets';
-import { getPaddingClass, getBackgroundColor } from '@utils/styleUtils';
+import { getPaddingClass, getBackgroundColor, getHeadlineColor } from '@utils/styleUtils';
 import type { PaddingSize, ThemeColor } from '@utils/styleUtils';
 
 export interface Props {
@@ -29,9 +29,9 @@ const paddingClass = getPaddingClass({
     paddingTop: Astro.props.paddingTop,
     paddingBottom: Astro.props.paddingBottom 
 });
+const headlineColor = getHeadlineColor(background);
 
 ---
-
 <section class:list={["relative", bgColor, paddingClass]}>
     <div class="site-container px-4 text-center">
         {eyebrow && (
@@ -41,6 +41,7 @@ const paddingClass = getPaddingClass({
                 className="text-center"
             />
         )}
+        <h2 data-aos="fade-up" class:list={["text-3xl font-bold mb-4", headlineColor]}>{headline}</h2>
         <div class="flex flex-wrap justify-center gap-16">
             {logos.map((logo, index) => (
                 <div 

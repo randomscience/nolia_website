@@ -14,11 +14,11 @@ import { faqLists } from '@data/faqs';
 import RecentPosts from '@components/sections/RecentPosts.astro';
 import InnerHero from '@components/sections/InnerHero.astro';
 import TeamGrid from '@components/sections/TeamGrid.astro';
-import defaultHero from '@assets/images/home/default-hero.jpg';
+import defaultHero from '@assets/images/home/default-hero.png';
 import defaultHero2 from '@assets/images/home/default-hero-2.jpg';
 import developerImg from '@assets/images/home/developer.jpg';
 
-const seoTitle = "Component Library - Titan Core";
+const seoTitle = "NOLIA - Aktywności dla seniorów";
 const seoDescription = "Explore the complete component library of Titan Core, a modern, high-performance Astro theme for developer portfolios and documentation sites.";
 
 // Define the component sections for the navigation
@@ -66,12 +66,12 @@ const innerHeroContent = {
 // Features Component Content
 const featuresSection = {
     eyebrow: "COMPONENT FEATURES",
-    title: "Showcase Product Features & Benefits",
-    description: "The Features component is ideal for highlighting key features, benefits, or services in a visually appealing grid layout with icons and descriptions.",
+    title: "Gotowy żeby zacząć?",
+    description: "Zarejestruj się na naszej platformie już dzisiaj!",
     features: featureLists.main.features,
     button: {
-        text: "View All Features",
-        link: "/features",
+        text: "Zarejestruj się",
+        link: "https://app.noliacare.com",
         variant: "primary" as const
     }
 }
@@ -129,11 +129,11 @@ const sideBySideStats = {
 // CTA Banner Component Content
 const mainCta = {
     eyebrow: "CALL TO ACTION",
-    title: "Drive User Engagement",
-    description: "The CTA Banner component is designed to convert visitors into customers with compelling headlines, persuasive copy, and prominent call-to-action buttons.",
+    title: "Gotowy żeby zacząć?",
+    description: "Zarejestruj się na naszej platformie już dzisiaj!",
     button: {
-        text: "Take Action Now",
-        link: "/contact",
+        text: "Zarejestruj się",
+        link: "https://app.noliacare.com",
         variant: "primary" as const,
         target: "_self" as const
     }

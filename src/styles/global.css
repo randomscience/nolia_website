@@ -81,12 +81,47 @@
     
     --font-bruno-ace: 'Bruno Ace SC', sans-serif;
     --font-noto-sans-kr: "Noto Sans KR", sans-serif;
-    --font-base: 'Noto Sans KR', sans-serif;
+    --font-base: 'Geologica', sans-serif;
     --font-logo: 'Bruno Ace SC', sans-serif;
-    --font-headline: 'Noto Sans KR', sans-serif;
+    --font-headline: 'Geologica', sans-serif;
 }
 
 @layer base {
+
+    [data-theme='nolia'] {
+        --color-primary: #185241;
+        --color-primary-light: #256961;
+        --color-primary-dark: #4b0082;
+        --color-secondary: #333333;
+        --color-secondary-light: #4d4d4d;
+        --color-secondary-dark: #1a1a1a;
+        --color-accent: #f6a31c;
+        --color-background: #ededdf;
+        --color-background-light: #f7f7ef;
+        --color-background-dark: #1a1a1a;
+        --color-headline: #1a1a1a;
+        --color-headline-light: #1a1a1a;
+        --color-headline-dark: #ffffff;
+        --color-body-base: #333333;
+        --color-body-light: #333333;
+        --color-body-dark: #ffffff;
+        --color-eyebrow: #f6a31c;
+        --color-eyebrow-light: #f6a31c;
+        --color-eyebrow-dark: #f6a31c;
+        --color-input: var(--color-background-light);
+        --color-input-light: var(--color-background-light);
+        --color-input-dark: var(--color-background-dark);
+        --color-input-text: var(--color-body-base);
+        --color-input-text-light: var(--color-headline-light);
+        --color-input-text-dark: var(--color-headline-dark);
+        --color-nav-text: var(--color-body-base);
+        --color-nav-text-hover: var(--color-primary);
+        --color-nav-text-active: var(--color-primary);
+        --color-nav-text-current: var(--color-primary);
+        --color-nav-submenu-bg: var(--color-background-light);
+        --color-header-logo: var(--color-primary);
+        --color-footer-logo: var(--color-primary);
+    }
     
     
     [data-theme='zeus'] {
@@ -519,7 +554,7 @@ body {
     @apply pt-24;
 }
 
-.hero-background {
+.hero-background-old {
     --s: 34px;
     /* control the size*/
     --c1: var(--color-primary);
@@ -530,11 +565,20 @@ body {
     var(--c2) 46% 55%, var(--c1) 56% 65%, var(--c2) 66% 75%, var(--c1) 76% 85%, var(--c2) 86% 95%,
     #0000 96%;
     background:
+        /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) */
         radial-gradient(50% 50% at 100% 0, var(--_g)),
         radial-gradient(50% 50% at 0 100%, var(--_g)),
         radial-gradient(50% 50%, var(--_g)),
         radial-gradient(50% 50%, var(--_g)) calc(var(--s)/2) calc(var(--s)/2) var(--c1);
     background-size: var(--s) var(--s);
+}
+
+.hero-background {
+    background-color: color-mix(
+        in srgb,
+        var(--color-primary) 80%,
+        transparent
+    );
 }
 
 /* Style the pre element containing the code */

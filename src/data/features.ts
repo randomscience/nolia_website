@@ -21,34 +21,29 @@ export const featureLists: Record<string, FeatureList> = {
         features: [
             {
                 icon: Zap,
-                title: 'Lightning Fast Performance',
-                description: 'Optimized for speed and performance'
+                title: 'Oceny, opinie i certyfikacja',
+                description: 'Już nigdy nie zastanawiaj się czy organizatorzy zajęć staną na wysokości zadania'
             },
             {
                 icon: Shield,
-                title: 'SEO Optimized Structure',
-                description: 'Built with SEO best practices in mind'
+                title: 'Wirtualne umowy i podział płatności',
+                description: 'NOLIA łączy usługodawców z domami opieki'
             },
             {
                 icon: TabletSmartphone,
-                title: 'Responsive by Default',
+                title: 'Zajęcia dla seniorów w zasięgu ręki',
                 description: 'Mobile-friendly out of the box'
             },
             {
                 icon: Smile,
-                title: 'Easy Customization',
+                title: 'Raporty i statystyki',
                 description: 'Customize the theme to your liking'
             },
             {
-                icon: Type,
-                title: 'TypeScript Support',
-                description: 'Built with TypeScript in mind'
+                icon: Shield,
+                title: 'Jedno miejsce dla wszystkich zajęć dla seniorów',
+                description: 'NOLIA łączy usługodawców z domami opieki'
             },
-            {
-                icon: CodeXml,
-                title: 'Minimal Dependencies',
-                description: 'Keep your project lightweight'
-            }
         ]
     },
     secondary: {
