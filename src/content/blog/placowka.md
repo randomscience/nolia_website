@@ -4,7 +4,7 @@ excerpt: Zoptymalizuj wykorzystanie swojej infrastruktury, znajdź najlepszych i
 # featuredImage: "./images/building-pages.jpg"
 publishDate: "2025-02-22"
 publish: true
-categories: ["Placówka", "Poradnik"]
+categories: ["Uslugodawca", "Poradnik"]
 
 seo:
   title: "Zmień swoją placówkę w centrum aktywności z platformą NOLIA"
