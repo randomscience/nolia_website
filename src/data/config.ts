@@ -16,7 +16,7 @@ export const siteConfig = {
       Instagram: 'https://www.instagram.com/noliacare',
       LinkedIn: 'https://www.linkedin.com/company/noliacare',
       Email: 'kontakt@noliacare.com',
-      Phone: '+48 533 152 121',
+      Phone: '+48 533 152 323',
       Location: 'ul. Bruzdowa 92, 02-991 Warszawa, Polska',
     }
 };
