@@ -18,7 +18,24 @@ export const headerMenu = [
 ];
 
 export const footerMenu = [
-    { name: 'Aplikacja', link: 'https://app.noliacare.com' },
+    { name: 'Newsletter', link: '/contact' },
+];
+
+export const footerAboutMenu = [
+    { name: 'O nas', link: '/#o-nas' },
+    { name: 'Zespół', link: '/team' },
+    { name: 'Kontakt', link: '/contact' },
+];
+
+export const footerForUsersMenu = [
+    { name: 'Dla seniorów', link: '/' },
+    { name: 'Jak to działa?', link: '/blog' },
+    { name: 'FAQ', link: '/#faq' },
+];
+
+export const footerForProvidersMenu = [
+    { name: 'Dla placówek', link: '/blog/placowka' },
+    { name: 'Dla usługodawców', link: '/blog/uslugodawca' },
 ];
 
 export const legalMenu = [

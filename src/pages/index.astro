@@ -15,15 +15,15 @@ import RecentPosts from '@components/sections/RecentPosts.astro';
 import heroImage from '../assets/images/home/default-hero-2.jpg';
 import styleGuideImage from '../assets/images/home/business-lady.jpg';
 
-const seoTitle = "Modern, High-Performance Astro Theme";
-const seoDescription = "A modern, high-performance Astro theme for developer portfolios and documentation sites.";
+const seoTitle = "NOLIA - Zajęcia dla seniorów w Twojej okolicy";
+const seoDescription = "Znajdź zajęcia, kursy i spotkania dla seniorów. Zapomnij o nudzie - odkryj tysiące możliwości w Twojej okolicy na jednej bezpiecznej platformie."
 
 const heroContent = {
-    title: 'Jedno miejsce dla wszystkich zajęć dla seniorów',
-    description: 'Jedno miejsce dla wszystkich zajęć dla seniorów',
+    title: 'Aktywnie żyj, poznawaj nowych ludzi, rozwijaj swoje pasje',
+    description: 'Zapomnij o nudzie. Znajdź zajęcia jogi, kursy informatyki, spotkania towarzyskie, kursy rękodzieła, spacery i wiele więcej - wszystko w Twojej okolicy i dostosowane do Twojego poziomu.',
     buttons: [
         {
-            text: 'Załóż konto',
+            text: 'Subskrybuj newsletter',
             link: '/contact',
             target: '_self',
             variant: 'accent' as const
@@ -40,33 +40,33 @@ const heroContent = {
 }
 
 const featuresSection = {
-    eyebrow: "CORE FEATURES",
-    title: "NOLIA to platforma pozwalająca seniorom na znajdowanie aktywności organizowanych w ich okolicy",
-    description: "Titan Core gives you a solid foundation with essential features while staying lightweight and customizable. Start with a clean slate and build exactly what you need without the bloat.",
+    eyebrow: "DLACZEGO NOLIA?",
+    title: "Bezpieczna platforma łącząca seniorów z zajęciami na ich miarę",
+    description: "NOLIA to więcej niż aplikacja. To cały ekosystem zaprojektowany z myślą o Tobie - od wyszukiwania zajęć, przez bezpieczne płatności, aż po całodobową obsługę klienta. Wszystkie organizatorzy są zweryfikowani i posiadają opinie realnych uczestników.",
     features: featureLists.main.features,
     button: {
-        text: "View Theme Info",
+        text: "Dowiedz się więcej",
         link: "/theme-info",
         variant: "primary" as const
     }
 }
 
 const FooterCta = {
-    eyebrow: "Join The Community",
-    title: ' Start Building With Titan Core Today',
-    description: 'Titan Core is open-source and constantly improving. Join our community of developers to contribute, get support, or showcase what you\'ve built.',
+    eyebrow: "DOŁĄCZ DO NASZEJ SPOŁECZNOŚCI",
+    title: 'Życie jest zbyt krótkie, by nie wychodzić z domu',
+    description: 'Miliony seniorów na całym świecie już odkrywają nowe pasje, przyjaźnie i możliwości. Bądź następny!',
     hideCta: true,
     button: {
-        text: 'Download Titan Core',
-        link: 'https://github.com/rspisarski/titan-core',
-        target: '_blank'
+        text: 'Subskrybuj newsletter',
+        link: '/contact',
+        target: '_self'
     }
 }
 
 const styleGuideSection = {
-    eyebrow: "Business",
-    headline: "NOLIA dla placówek i usługodawców",
-    description: "NOLIA pozwala łączy domy opieki i centra aktywności dla osób starszych z usługodawcami",
+    eyebrow: "DLA PLACÓWEK I ORGANIZATORÓW",
+    headline: "Rozwijaj swoją działalność dzięki NOLIA",
+    description: "Połącz się z szerszą społecznością seniorów poszukujących zajęć. Zarządzaj rezerwacjami, otrzymuj opinie i automatyczne wypłaty. NOLIA dba o wszystkie formalne aspekty - umowy, ubezpieczenia, obsługa klienta. Ty skupiasz się na tym, co robisz najlepiej.",
     image: {
         src: styleGuideImage,
         alt: "Featured image"
@@ -98,13 +98,13 @@ const sideBySideStats = {
 };
 
 const mainCta = {
-    eyebrow: "COMPONENT FEATURES",
-    title: "Gotowy żeby zacząć?",
-    description: "Zarejestruj się na naszej platformie już dzisiaj!",
+    eyebrow: "GOTOWY NA NOWĄ PRZYGODĘ?",
+    title: "Dołącz do tysięcy aktywnych seniorów",
+    description: "Bądź na bieżąco — zapisz się do naszego newslettera, by otrzymywać informacje o nowych zajęciach i wydarzeniach.",
     features: featureLists.main.features,
     button: {
-        text: "Zarejestruj się",
-        link: "https://app.noliacare.com",
+        text: "Subskrybuj newsletter",
+        link: "/contact",
         variant: "primary" as const
     }
 };

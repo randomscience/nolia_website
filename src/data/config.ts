@@ -1,15 +1,24 @@
 export const siteConfig = {
   companyName: 'NOLIA',
   siteUrl: 'https://noliacare.com',
+  description: 'Platforma łącząca seniorów z zajęciami i aktywnością w ich okolicy',
+  contactEmail: 'kontakt@noliacare.com',
+  supportEmail: 'kontakt@noliacare.com',
+  phone: '+48 533 152 121',
+  address: 'ul. Bruzdowa 92, 02-991 Warszawa, Polska',
+  company: {
+    NIP: '9512640718',
+    KRS: '0001222372',
+    REGON: '54393529100000',
+  },
   Socials: {
-      // xSocial: 'https://x.com/astrodotbuild',
-      // Github: 'https://github.com/withastro',
-      // Instagram: 'https://www.instagram.com/astrodotbuild',
-      // LinkedIn: 'https://www.linkedin.com/company/astrodotbuild',
+      Facebook: 'https://facebook.com/noliacare',
+      Instagram: 'https://www.instagram.com/noliacare',
+      LinkedIn: 'https://www.linkedin.com/company/noliacare',
       Email: 'kontakt@noliacare.com',
-      Phone: '+123 456 7890',
-      Location: '123 Main St, Anytown, USA',
-  }
+      Phone: '+48 533 152 121',
+      Location: 'ul. Bruzdowa 92, 02-991 Warszawa, Polska',
+    }
 };
 
 export const SEO = {

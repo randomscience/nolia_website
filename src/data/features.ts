@@ -22,27 +22,27 @@ export const featureLists: Record<string, FeatureList> = {
             {
                 icon: Zap,
                 title: 'Oceny, opinie i certyfikacja',
-                description: 'Już nigdy nie zastanawiaj się czy organizatorzy zajęć staną na wysokości zadania'
+                description: 'Zweryfikowani organizatorzy z opiniami i certyfikatami gwarantują profesjonalne zajęcia'
             },
             {
                 icon: Shield,
-                title: 'Wirtualne umowy i podział płatności',
-                description: 'NOLIA łączy usługodawców z domami opieki'
+                title: 'Bezpieczne umowy i płatności',
+                description: 'Wirtualne umowy i automatyczny podział wynagrodzania dla obu stron'
             },
             {
                 icon: TabletSmartphone,
                 title: 'Zajęcia dla seniorów w zasięgu ręki',
-                description: 'Mobile-friendly out of the box'
+                description: 'Intuicyjna aplikacja dostępna na wszystkich urządzeniach mobilnych i komputerach'
+            },
+            {
+                icon: Heart,
+                title: 'Dedykowane wsparcie',
+                description: 'Pomoc 24/7 dla podopiecznych, domów opieki i organizatorów zajęć'
             },
             {
                 icon: Smile,
                 title: 'Raporty i statystyki',
-                description: 'Customize the theme to your liking'
-            },
-            {
-                icon: Shield,
-                title: 'Jedno miejsce dla wszystkich zajęć dla seniorów',
-                description: 'NOLIA łączy usługodawców z domami opieki'
+                description: 'Szczegółowe analizy frekwencji, zaangażowania i zadowolenia uczestników'
             },
         ]
     },
@@ -51,18 +51,18 @@ export const featureLists: Record<string, FeatureList> = {
         features: [
             {
                 icon: Heart,
-                title: 'Made with Love',
-                description: 'Crafted with attention to detail'
+                title: 'Solidne bezpieczeństwo danych',
+                description: 'Szyfrowanie end-to-end i pełna zgodność z RODO'
             },
             {
                 icon: Coffee,
-                title: 'Always Fresh',
-                description: 'Regular updates and improvements'
+                title: 'Stale rozwijane',
+                description: 'Regularne aktualizacje na podstawie opinii użytkowników'
             },
             {
                 icon: Smile,
-                title: 'User Friendly',
-                description: 'Intuitive and easy to use'
+                title: 'Łatwe w użyciu',
+                description: 'Intuicyjny interfejs dostępny dla wszystkich pokoleń'
             }
         ]
     }
