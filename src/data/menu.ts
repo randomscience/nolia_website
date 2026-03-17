@@ -23,7 +23,6 @@ export const footerMenu = [
 
 export const footerAboutMenu = [
     { name: 'O nas', link: '/#o-nas' },
-    { name: 'Zespół', link: '/team' },
     { name: 'Kontakt', link: '/contact' },
 ];
 
