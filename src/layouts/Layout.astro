@@ -71,6 +71,7 @@ const fullCanonicalUrl = new URL(canonicalPath, siteConfig.siteUrl).toString();
 		{pageImage && <meta property="twitter:image" content={new URL(pageImage, siteConfig.siteUrl).toString()} />}
 	</head>
 	<body data-theme={theme}>
+		<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6bb19097495b4ed591937231b14e2ea3"}'></script><!-- End Cloudflare Web Analytics -->
 		<Header />
 		<slot />
 		<Footer footerCta={footerCta} />
