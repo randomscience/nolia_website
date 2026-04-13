@@ -5,7 +5,7 @@ export const headerMenu = [
     // { name: 'Placówka', link: '/blog/placowka' },
     // { name: 'Usługodawca', link: '/blog/uslugodawca' },
     // { name: 'Blog', link: '/blog' },
-        { name: 'Kontakt', link: '/contact' },
+        // { name: 'Kontakt', link: '/contact' },
     // { name: 'Style-Guide', link: '/style-guide', showArrow: false,
     //     children: [
     //         { name: 'Typography', link: '/style-guide#typography' },
