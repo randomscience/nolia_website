@@ -1,7 +1,7 @@
 export const siteConfig = {
   companyName: 'NOLIA',
   siteUrl: 'https://noliacare.com',
-  description: 'Platforma łącząca seniorów z zajęciami i aktywnością w ich okolicy',
+  description: 'NOLIA - Platforma łącząca seniorów z zajęciami i aktywnością w ich okolicy',
   contactEmail: 'kontakt@noliacare.com',
   supportEmail: 'kontakt@noliacare.com',
   phone: '+48 533 152 121',

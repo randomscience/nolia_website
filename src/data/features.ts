@@ -1,12 +1,44 @@
 import { Zap, Shield, Heart, Coffee, Smile, Type, TabletSmartphone, CodeXml } from 'lucide-astro';
+import iconBezpieczenstwo from '@assets/icons/bezpieczenstwo.svg';
+import iconOcena from '@assets/icons/ocena.svg';
+import iconRaport from '@assets/icons/raport.svg';
+import iconWsparcie from '@assets/icons/wsparcie.svg';
+import iconZajecia from '@assets/icons/zajecia.svg';
 
 // Define the LucideIcon type based on the structure of Lucide icons
 type LucideIcon = typeof Zap;
 
 export interface Feature {
-    icon: LucideIcon;
+    icon: any;
     title: string;
     description: string;
+    variant?: 'green' | 'beige' | 'white';
+}
+
+export function variantToBackgroundColor(variant: Feature['variant']): string {
+    switch (variant) {
+        case 'green':
+            return 'bg-primary/90';
+        case 'beige':
+            return 'bg-background/90';
+        case 'white':
+            return 'bg-white';
+        default:
+            return 'bg-background/90'; // Default background color
+    }
+}
+
+export function variantToTextColor(variant: Feature['variant']): string {
+    switch (variant) {
+        case 'green':
+            return 'text-white';
+        case 'beige':
+            return 'text-primary';
+        case 'white':
+            return 'text-primary';
+        default:
+            return 'text-primary'; // Default text color
+    }
 }
 
 export interface FeatureList {
@@ -20,27 +52,28 @@ export const featureLists: Record<string, FeatureList> = {
         id: 'main',
         features: [
             {
-                icon: Zap,
+                icon: iconOcena,
                 title: 'Oceny, opinie i certyfikacja',
-                description: 'Zweryfikowani organizatorzy z opiniami i certyfikatami gwarantują profesjonalne zajęcia'
+                description: 'Zweryfikowani organizatorzy z opiniami i certyfikatami gwarantują profesjonalne zajęcia',
+                variant: 'green'
             },
             {
-                icon: Shield,
+                icon: iconBezpieczenstwo,
                 title: 'Bezpieczne umowy i płatności',
                 description: 'Wirtualne umowy i automatyczny podział wynagrodzania dla obu stron'
             },
             {
-                icon: TabletSmartphone,
+                icon: iconZajecia,
                 title: 'Zajęcia dla seniorów w zasięgu ręki',
                 description: 'Intuicyjna aplikacja dostępna na wszystkich urządzeniach mobilnych i komputerach'
             },
             {
-                icon: Heart,
+                icon: iconWsparcie,
                 title: 'Dedykowane wsparcie',
                 description: 'Pomoc 24/7 dla podopiecznych, domów opieki i organizatorów zajęć'
             },
             {
-                icon: Smile,
+                icon: iconRaport,
                 title: 'Raporty i statystyki',
                 description: 'Szczegółowe analizy frekwencji, zaangażowania i zadowolenia uczestników'
             },

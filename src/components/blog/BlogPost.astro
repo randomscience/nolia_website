@@ -28,7 +28,7 @@ const validCategories = postCategories.filter((categoryName: string) =>
     data-aos="fade-up"
     data-aos-delay={index * 100}
 >
-    <!-- <div
+    <div
         class="relative aspect-[16/9] overflow-hidden border-black border-b group-hover:border-primary transition-colors duration-300"
     >
         {
@@ -37,20 +37,22 @@ const validCategories = postCategories.filter((categoryName: string) =>
                     src={featuredImage}
                     alt=""
                     width={600}
-                    height={338}
+                    // height={338}
                     class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                 />
             )
         }
         <div class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
-    </div> -->
+    </div>
 
     <div class="py-4 px-4 flex flex-col flex-grow relative">
         {/* Date at the top */}
+        {publishDate &&
         <div class="text-sm text-gray-600 mb-3 group-hover:text-primary/80 transition-colors duration-300">
             <Date date={publishDate} />
-        </div>
-
+        </div> 
+        }
+        
         <h2 class="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors duration-300">
             {title}
         </h2>

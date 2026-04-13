@@ -14,26 +14,82 @@ import { faqLists } from '@data/faqs';
 import RecentPosts from '@components/sections/RecentPosts.astro';
 import heroImage from '../assets/images/home/default-hero-2.jpg';
 import styleGuideImage from '../assets/images/home/business-lady.jpg';
+import iconSpolecznosc from '@assets/icons/spolecznosc.svg';
+import iconRezerwacje from '@assets/icons/rezerwacje.svg';
+import iconFormalnosci from '@assets/icons/formalnosci.svg';
+import FeatureCards from "@components/ui/FeatureCard.astro";
+
+import  dostawcyImage  from '@assets/sections/dostawcy.svg';
+import  placowkiImage  from '@assets/sections/placowki.svg';
+import  seniorzyImage  from '@assets/sections/seniorzy.svg';
 
 const seoTitle = "NOLIA - Zajęcia dla seniorów w Twojej okolicy";
 const seoDescription = "Znajdź zajęcia, kursy i spotkania dla seniorów. Zapomnij o nudzie - odkryj tysiące możliwości w Twojej okolicy na jednej bezpiecznej platformie."
 
+const cards = [
+  {
+    title: "Dostawcy usług",
+    description: `Zarządzaj zajęciami, aktywizacją uczestników i współpracą ze specjalistami w jednym miejscu.
+
+
+**Funkcjonalności**:
+- harmonogram zajęć i aktywności
+- dostęp do sprawdzonych usługodawców
+- zarządzanie uczestnikami
+- raportowanie i monitoring postępów
+- gotowe programy aktywizacyjne
+`,
+    bgColor: "--card-green",
+    image: dostawcyImage,
+  },
+  {
+    title: "Docieraj do placówek i uczestników bez sprzedaży „od drzwi do drzwi”",
+    description: `Docieraj do placówek i uczestników bez sprzedaży „od drzwi do drzwi”.
+
+
+**Funkcjonalności**:
+- dostęp do klientów (placówki i uczestnicy)
+- zarządzanie grafikiem
+- rozliczenia i płatności
+- budowanie własnej marki
+- gotowe programy zajęć`,
+    bgColor: "--card-beige",
+    image: seniorzyImage,
+  },
+  {
+    title: "Placówki dla seniorów",
+    description: `Znajdź zajęcia, opiekę i aktywności dopasowane do swoich potrzeb i możliwości.
+
+
+**Funkcjonalności**:
+- dostęp do zajęć i wydarzeń
+- wybór specjalistów
+- łatwe zapisy i płatności
+- programy zdrowotne i rozwojowe
+- wsparcie w codziennej aktywności
+`,
+    bgColor: "--card-orange",
+    image: placowkiImage,
+  },
+];
+
+
 const heroContent = {
-    title: 'Aktywnie żyj, poznawaj nowych ludzi, rozwijaj swoje pasje',
-    description: 'Zapomnij o nudzie. Znajdź zajęcia jogi, kursy informatyki, spotkania towarzyskie, kursy rękodzieła, spacery i wiele więcej - wszystko w Twojej okolicy i dostosowane do Twojego poziomu.',
+    title: 'Aktywnie życie zaczyna się tutaj',
+    description: 'Łączymy placówki, specjalistów i uczestników, aby tworzyć zajęcia, opiekę i aktywności, które realnie poprawiają jakość życia.',
     buttons: [
-        {
-            text: 'Subskrybuj newsletter',
-            link: '/contact',
-            target: '_self',
-            variant: 'accent' as const
-        },
-        {
-            text: 'Napisz do nas',
-            link: '/contact',
-            target: '_self',
-            variant: 'accent' as const
-        }
+        // {
+        //     text: 'Subskrybuj newsletter',
+        //     link: '/contact',
+        //     target: '_self',
+        //     variant: 'accent' as const
+        // },
+        // {
+        //     text: 'Napisz do nas',
+        //     link: '/contact',
+        //     target: '_self',
+        //     variant: 'accent' as const
+        // }
     ],
     backgroundImage: heroImage,
     overlayOpacity: 0.8
@@ -66,7 +122,21 @@ const FooterCta = {
 const styleGuideSection = {
     eyebrow: "DLA PLACÓWEK I ORGANIZATORÓW",
     headline: "Rozwijaj swoją działalność dzięki NOLIA",
-    description: "Połącz się z szerszą społecznością seniorów poszukujących zajęć. Zarządzaj rezerwacjami, otrzymuj opinie i automatyczne wypłaty. NOLIA dba o wszystkie formalne aspekty - umowy, ubezpieczenia, obsługa klienta. Ty skupiasz się na tym, co robisz najlepiej.",
+    // description: "Połącz się z szerszą społecznością seniorów poszukujących zajęć. Zarządzaj rezerwacjami, otrzymuj opinie i automatyczne wypłaty. NOLIA dba o wszystkie formalne aspekty - umowy, ubezpieczenia, obsługa klienta. Ty skupiasz się na tym, co robisz najlepiej.",
+    points: [
+        {
+            text: "Połącz się z szerszą społecznością seniorów poszukujących zajęć.",
+            icon: iconSpolecznosc
+        },
+        {
+            text: "Zarządzaj rezerwacjami, otrzymuj opinie i automatyczne wypłaty.",
+            icon: iconRezerwacje
+        },
+        {
+            text: "NOLIA dba o wszystkie formalne aspekty - umowy, ubezpieczenia, obsługa klienta. Ty skupiasz się na tym, co robisz najlepiej.",
+            icon: iconFormalnosci
+        },
+    ],
     image: {
         src: styleGuideImage,
         alt: "Featured image"
@@ -75,7 +145,7 @@ const styleGuideSection = {
         {
             text: "Dowiedz się więcej",
             link: "/style-guide",
-            variant: "primary" as const
+            variant: "accent" as const
         }
     ]
 }
@@ -136,12 +206,14 @@ const recentPostsSection = {
 
 <Layout footerCta={FooterCta} title={seoTitle} description={seoDescription}>
     <Hero content={heroContent} />
+    <FeatureCards cards={cards} />
+    <!-- <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Theme Usage"/> -->
     <Features content={featuresSection} background="light" padding="base"  />
     <Logos content={logosSection} background="base" padding='small'/>
-    <Faqs content={faqsSection} background="light" padding="small" />
+    <!-- <Faqs content={faqsSection} background="light" padding="small" /> -->
 
 
-    <!-- <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={5} category="Theme Usage"/> -->
+    
     <SplitPanel content={styleGuideSection} imagePosition="right" background="base" padding="base" />
     <CtaBanner content={mainCta} variant="contained" background="light" paddingBottom="base" />
 

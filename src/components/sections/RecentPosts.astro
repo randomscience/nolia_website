@@ -5,6 +5,10 @@ import Button from '@components/ui/Button.astro';
 import Eyebrow from '@components/ui/Eyebrow.astro';
 import { getPaddingClass, getBackgroundColor, getTextColor } from '@utils/styleUtils';
 import type { PaddingSize, ThemeColor } from '@utils/styleUtils';
+import  dostawcyImage  from '@assets/sections/dostawcy.svg';
+import  placowkiImage  from '@assets/sections/placowki.svg';
+import  seniorzyImage  from '@assets/sections/seniorzy.svg';
+
 
 export interface Props {
     content?: {
@@ -42,15 +46,48 @@ const allPosts = await getCollection('blog', ({ data }) => {
 });
 
 // Filter and sort posts
-let filteredPosts = allPosts
-    .filter((post) => !category || post.data.categories.includes(category))
-    .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
-    .slice(0, postsToShow);
+// let filteredPosts = allPosts
+//     .filter((post) => !category || post.data.categories.includes(category))
+//     .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
+//     .slice(0, postsToShow);
+
+let filteredPosts = [
+    {
+        id: 'example-post-1',
+        data: {
+            title: 'Example Post 1',
+            excerpt: 'This is a short excerpt for example post 1.',
+            featuredImage: dostawcyImage,
+            // publishDate: new Date('2024-01-01'),
+            categories: ['Theme Usage']
+        }
+    },
+    {
+        id: 'example-post-2',
+        data: {
+            title: 'Example Post 2',
+            excerpt: 'This is a short excerpt for example post 2.',
+            featuredImage: seniorzyImage,
+            // publishDate: new Date('2024-02-01'),
+            categories: ['Theme Usage']
+        }
+    },
+    {
+        id: 'example-post-3',
+        data: {
+            title: 'Example Post 3',
+            excerpt: 'This is a short excerpt for example post 3.',
+            featuredImage: placowkiImage,
+            // publishDate: new Date('2024-03-01'),
+            categories: ['Theme Usage']
+        }
+    }
+]
 ---
 
 <section class:list={['relative', bgColor, paddingClass]}>
     <div class="site-container px-4">
-        {
+        <!-- {
             (content?.title || content?.description) && (
                 <div class="max-w-2xl mb-12">
                     {content?.eyebrow && <Eyebrow text={content.eyebrow} background={background} />}
@@ -73,7 +110,7 @@ let filteredPosts = allPosts
                     )}
                 </div>
             )
-        }
+        } -->
 
         <div class="posts-grid">
             {

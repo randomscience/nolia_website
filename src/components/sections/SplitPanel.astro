@@ -10,6 +10,10 @@ interface Content {
     headline: string;
     subheadline?: string;
     description?: string;
+    points?: {
+        text: string;
+        icon: string | any;
+    }[];
     image: {
         src: string | any;
         alt?: string;
@@ -34,6 +38,7 @@ export interface Props {
 
 const {
     content,
+
     // Layout props
     imagePosition = 'right',
     background = 'base',
@@ -42,12 +47,12 @@ const {
     padding,
 } = Astro.props;
 
-const { eyebrow, headline, subheadline, description, image, buttons = [] } = content;
+const { eyebrow, headline, subheadline, points, description, image, buttons = [] } = content;
 const { src, alt = '' } = image;
 
 const paddingClass = getPaddingClass({ padding, paddingTop, paddingBottom });
-const bgColor = getBackgroundColor(background);
-const textColor = getTextColor(background);
+const bgColor = 'bg-primary' // getBackgroundColor(background);
+const textColor = 'text-white' // getTextColor(background);
 ---
 
 <section class:list={['relative', bgColor, paddingClass]}>
@@ -94,7 +99,18 @@ const textColor = getTextColor(background);
                         </p>
                     )
                 }
-
+                {
+                    points && (
+                        <ul class="flex flex-col gap-4 mt-6" data-aos="fade-up">
+                            {points.map((point) => (
+                                <li class="flex items-center gap-3">
+                                    <Image src={point.icon} alt="" width={36} height={36} class:list={["mb-4"]} />
+                                    <p class:list={['text-base', textColor]}>{point.text}</p>
+                                </li>
+                            ))}
+                        </ul>
+                    )
+                }
                 {
                     buttons.length > 0 && (
                         <div class="flex flex-wrap gap-4 mt-8" data-aos="fade-up">
@@ -102,7 +118,7 @@ const textColor = getTextColor(background);
                                 <Button
                                     href={button.link}
                                     target={button.target || '_self'}
-                                    variant={button.variant || 'primary'}
+                                    variant={button.variant || 'secondary'}
                                 >
                                     {button.text}
                                 </Button>

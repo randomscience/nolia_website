@@ -1,67 +1,74 @@
 ---
 import Button from '@components/ui/Button.astro';
 import { Image } from 'astro:assets';
-
-import whiteLogo from '../../assets/logo-nolia-white.png';
-
+import heroImage from '@assets/images/hero.svg';
 interface HeroContent {
     title: string;
     description: string;
-        buttons?: {
+    heroImage: any;
+    circleBg?: string;
+    buttons?: {
         text: string;
         link: string;
         variant?: 'primary' | 'secondary' | 'ghostLight' | 'ghostDark' | 'accent';
         target?: string;
     }[];
-    backgroundImage?: string | any; // Using any for now to handle both string paths and imported images
-    overlayOpacity?: number; // Value between 0 and 1
-}
-
-interface Props {
-    content: HeroContent;
 }
 
 const { content } = Astro.props;
-const opacity = content.overlayOpacity ?? 1; // Default opacity if not specified
 ---
 
-<section class="header-offset relative">
-    {content.backgroundImage && (
-        <div class="absolute inset-0 left-0 top-0 w-full h-full overflow-hidden">
-            <Image
-                src={content.backgroundImage}
-                alt=""
-                width={1920}
-                height={1080}
-                class="w-full h-full object-cover"
-                quality={70}
-                format="webp"
-                loading="eager"
-                decoding="async"
-            />
-            <div
-                class="hero-background absolute inset-0 left-0 top-0 w-full h-full overflow-hidden"
-                style={`opacity: ${opacity};`}
-            ></div>
-        </div>
-    )}
+<section class="bg-[var(--hero-bg)] header-offset overflow-hidden">
+    <div class="site-container mx-auto px-16 pt-16 pb-0">
+        <div class="grid md:grid-cols-2 items-center gap-12">
 
-    <div class="site-container mx-auto px-4 py-large relative z-10 flex flex-col md:items-center md:justify-center md:text-center">
-        <!-- <h1 class="text-white text-balance" data-aos="fade-up">{content.title}</h1> -->
-        <Image src={whiteLogo} alt="" height=300 />
-        <p class="text-white mt-2 text-balance" data-aos="fade-up" data-aos-delay="100">{content.description}</p>
-        {content.buttons && content.buttons.length > 0 && (
-            <div class="flex flex-wrap gap-4 mt-8" data-aos="fade-up">
-                {content.buttons.map((button) => (
-                    <Button
-                        href={button.link}
-                        target={button.target || '_self'}
-                        variant={button.variant || 'primary'}
-                    >
-                        {button.text}
-                    </Button>
-                ))}
+            <!-- LEFT CONTENT -->
+            <div class="max-w-xl">
+                <h1 class="text-4xl md:text-5xl font-bold text-[var(--hero-title)] leading-tight">
+                    {content.title}
+                </h1>
+
+                <div class="w-16 h-1 bg-[var(--hero-accent)] my-6"></div>
+
+                <p class="text-[var(--hero-text)]">
+                    {content.description}
+                </p>
+
+                {content.buttons && (
+                    <div class="flex flex-wrap gap-4 mt-8">
+                        {content.buttons.map((button) => (
+                            <Button
+                                href={button.link}
+                                target={button.target || '_self'}
+                                variant={button.variant || 'primary'}
+                            >
+                                {button.text}
+                            </Button>
+                        ))}
+                    </div>
+                )}
             </div>
-        )}
+
+            <!-- RIGHT IMAGE -->
+            <div class="relative flex justify-center md:justify-end">
+
+                <!-- decorative circle -->
+                <div
+                    class="absolute w-[500px] h-[500px] rounded-full 
+                           bg-[var(--hero-circle)] 
+                           opacity-60 
+                           top-1/2 -translate-y-1/2"
+                ></div>
+
+                <!-- hero image -->
+                <Image
+                    src={heroImage}
+                    alt=""
+                    class="relative z-10 w-full max-w-lg"
+                    loading="eager"
+                />
+            </div>
+
+        </div>
     </div>
 </section>

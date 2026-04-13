@@ -2,9 +2,10 @@
 
 export const headerMenu = [
     // { name: 'Theme Info', link: '/theme-info' },
-    { name: 'Placówka', link: '/blog/placowka' },
-    { name: 'Usługodawca', link: '/blog/uslugodawca' },
-    { name: 'Blog', link: '/blog' },
+    // { name: 'Placówka', link: '/blog/placowka' },
+    // { name: 'Usługodawca', link: '/blog/uslugodawca' },
+    // { name: 'Blog', link: '/blog' },
+        { name: 'Kontakt', link: '/contact' },
     // { name: 'Style-Guide', link: '/style-guide', showArrow: false,
     //     children: [
     //         { name: 'Typography', link: '/style-guide#typography' },
