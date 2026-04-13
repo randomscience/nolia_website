@@ -100,11 +100,12 @@ const featuresSection = {
     title: "Bezpieczna platforma łącząca seniorów z zajęciami na ich miarę",
     description: "NOLIA to więcej niż aplikacja. To cały ekosystem zaprojektowany z myślą o Tobie - od wyszukiwania zajęć, przez bezpieczne płatności, aż po całodobową obsługę klienta. Wszystkie organizatorzy są zweryfikowani i posiadają opinie realnych uczestników.",
     features: featureLists.main.features,
-    button: {
-        text: "Dowiedz się więcej",
-        link: "/theme-info",
-        variant: "primary" as const
-    }
+    button: null 
+    // {
+    //     text: "Dowiedz się więcej",
+    //     link: "/theme-info",
+    //     variant: "primary" as const
+    // }
 }
 
 const FooterCta = {
@@ -142,11 +143,11 @@ const styleGuideSection = {
         alt: "Featured image"
     },
     buttons: [
-        {
-            text: "Dowiedz się więcej",
-            link: "/style-guide",
-            variant: "accent" as const
-        }
+        // {
+        //     text: "Dowiedz się więcej",
+        //     link: "/style-guide",
+        //     variant: "accent" as const
+        // }
     ]
 }
 
@@ -209,7 +210,7 @@ const recentPostsSection = {
     <FeatureCards cards={cards} />
     <!-- <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Theme Usage"/> -->
     <Features content={featuresSection} background="light" padding="base"  />
-    <Logos content={logosSection} background="base" padding='small'/>
+    <!-- <Logos content={logosSection} background="base" padding='small'/> -->
     <!-- <Faqs content={faqsSection} background="light" padding="small" /> -->
 
 

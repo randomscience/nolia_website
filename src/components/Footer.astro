@@ -38,114 +38,149 @@ const currentYear = new Date().getFullYear();
 
 <footer class={`pb-small pt-8`}>
   <div class="site-container mx-auto px-4">
-    {!cta.hideCta && (
-      <div class="text-center border-b border-background-dark mb-12 py-small">
-        <h2 class="text-3xl font-bold mb-4" data-aos="fade-up">{cta.title}</h2>
-        <p class="mb-6 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-          {cta.description}
-        </p>
-        <Button 
-          href={cta.button.link} 
-          variant="ghostDark"
-          size="lg"
-          data-aos="fade-up"
-          data-aos-delay="200"
-          {...(cta.button.target && { target: cta.button.target })}
-        >
-          {cta.button.text}
-        </Button>
-      </div>
-    )}
+    {
+    // !cta.hideCta && (
+    //   <div class="text-center border-b border-background-dark mb-12 py-small">
+    //     <h2 class="text-3xl font-bold mb-4" data-aos="fade-up">{cta.title}</h2>
+    //     <p class="mb-6 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+    //       {cta.description}
+    //     </p>
+    //     <Button 
+    //       href={cta.button.link} 
+    //       variant="ghostDark"
+    //       size="lg"
+    //       data-aos="fade-up"
+    //       data-aos-delay="200"
+    //       {...(cta.button.target && { target: cta.button.target })}
+    //     >
+    //       {cta.button.text}
+    //     </Button>
+    //   </div>
+    // )
+    }
 
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-12 pb-12 border-b border-background-dark pt-8">
-      <!-- Logo i opis -->
-      <div class="col-span-1">
-        <!-- <Logo variant="footer" /> -->
-        <p class="mt-4 text-sm">
-          {siteConfig.description}
-        </p>
-        <div class="mt-6 space-y-2 text-sm">
-          <p><a href={`tel:${siteConfig.phone.replace(/\\s/g, '')}`} class="hover:text-black  hover:underline transition-colors">{siteConfig.phone}</a></p>
-          <p><a href={`mailto:${siteConfig.contactEmail}`} class="hover:text-black  hover:underline transition-colors">{siteConfig.contactEmail}</a></p>
-        </div>
-      </div>
-              <div class="space-y-2 text-sm" >
-          <p><strong>Nazwa:</strong> {siteConfig.companyName} sp. z o.o.</p>
-          <p><strong>NIP:</strong> {siteConfig.company.NIP}</p>
-          <p><strong>KRS:</strong> {siteConfig.company.KRS}</p>
-          <p><strong>REGON:</strong> {siteConfig.company.REGON}</p>
-        </div>
+    {
+    // <div class="grid grid-cols-1 md:grid-cols-5 gap-12 pb-12 border-b border-background-dark pt-8">
+    //   <!-- Logo i opis -->
+    //   <div class="col-span-1">
+    //     <!-- <Logo variant="footer" /> -->
+    //     <p class="mt-4 text-sm">
+    //       {siteConfig.description}
+    //     </p>
+    //     <div class="mt-6 space-y-2 text-sm">
+    //       <p><a href={`tel:${siteConfig.phone.replace(/\\s/g, '')}`} class="hover:text-black  hover:underline transition-colors">{siteConfig.phone}</a></p>
+    //       <p><a href={`mailto:${siteConfig.contactEmail}`} class="hover:text-black  hover:underline transition-colors">{siteConfig.contactEmail}</a></p>
+    //     </div>
+    //   </div>
+    //           <div class="space-y-2 text-sm" >
+    //       <p><strong>Nazwa:</strong> {siteConfig.companyName} sp. z o.o.</p>
+    //       <p><strong>NIP:</strong> {siteConfig.company.NIP}</p>
+    //       <p><strong>KRS:</strong> {siteConfig.company.KRS}</p>
+    //       <p><strong>REGON:</strong> {siteConfig.company.REGON}</p>
+    //     </div>
       
-      <!-- O nas -->
-      <div class="col-span-1">
-        <h3 class="text-lg font-semibold mb-4">O nas</h3>
-        <nav>
-          <ul class="space-y-2">
-            {footerAboutMenu.map(item => (
-              <li><a href={item.link} class="hover:text-black  hover:underline transition-colors text-sm">{item.name}</a></li>
-            ))}
-          </ul>
-        </nav>
-      </div>
+    //   <!-- O nas -->
+    //   <div class="col-span-1">
+    //     <h3 class="text-lg font-semibold mb-4">O nas</h3>
+    //     <nav>
+    //       <ul class="space-y-2">
+    //         {footerAboutMenu.map(item => (
+    //           <li><a href={item.link} class="hover:text-black  hover:underline transition-colors text-sm">{item.name}</a></li>
+    //         ))}
+    //       </ul>
+    //     </nav>
+    //   </div>
 
-      <!-- Dla seniorów
-      <div class="col-span-1">
-        <h3 class="text-lg font-semibold mb-4">Dla seniorów</h3>
-        <nav>
-          <ul class="space-y-2">
-            {footerForUsersMenu.map(item => (
-              <li><a href={item.link} class="hover:text-black  hover:underline transition-colors text-sm">{item.name}</a></li>
-            ))}
-          </ul>
-        </nav>
-      </div> -->
+    //   <!-- Dla seniorów
+    //   <div class="col-span-1">
+    //     <h3 class="text-lg font-semibold mb-4">Dla seniorów</h3>
+    //     <nav>
+    //       <ul class="space-y-2">
+    //         {footerForUsersMenu.map(item => (
+    //           <li><a href={item.link} class="hover:text-black  hover:underline transition-colors text-sm">{item.name}</a></li>
+    //         ))}
+    //       </ul>
+    //     </nav>
+    //   </div> -->
 
-      <!-- Dla partnerów -->
-      <!-- <div class="col-span-1">
-        <h3 class="text-lg font-semibold mb-4">Dla biznesu</h3>
-        <nav>
-          <ul class="space-y-2">
-            {footerForProvidersMenu.map(item => (
-              <li><a href={item.link} class="hover:text-black  hover:underline transition-colors text-sm">{item.name}</a></li>
-            ))}
-          </ul>
-        </nav>
-      </div> -->
+    //   <!-- Dla partnerów -->
+    //   <!-- <div class="col-span-1">
+    //     <h3 class="text-lg font-semibold mb-4">Dla biznesu</h3>
+    //     <nav>
+    //       <ul class="space-y-2">
+    //         {footerForProvidersMenu.map(item => (
+    //           <li><a href={item.link} class="hover:text-black  hover:underline transition-colors text-sm">{item.name}</a></li>
+    //         ))}
+    //       </ul>
+    //     </nav>
+    //   </div> -->
 
-      <!-- Aplikacja -->
-      <div class="col-span-1">
-        <h3 class="text-lg font-semibold mb-4">Aplikacja</h3>
-        <nav>
-          <ul class="space-y-2">
-            {footerMenu.map(item => (
-              <li><a href={item.link} class="hover:text-black hover:underline transition-colors text-sm" target="_blank">{item.name}</a></li>
-            ))}
-          </ul>
-        </nav>
-      </div>
-    </div>
+    //   <!-- Aplikacja -->
+    //   <div class="col-span-1">
+    //     <h3 class="text-lg font-semibold mb-4">Aplikacja</h3>
+    //     <nav>
+    //       <ul class="space-y-2">
+    //         {footerMenu.map(item => (
+    //           <li><a href={item.link} class="hover:text-black hover:underline transition-colors text-sm" target="_blank">{item.name}</a></li>
+    //         ))}
+    //       </ul>
+    //     </nav>
+    //   </div>
+    // </div>
 
-    <!-- Informacje o firmie -->
-    <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 border-b border-background-dark text-sm">
-      <div>
-        <h4 class="font-semibold mb-3">Dane firmy</h4>
-        <div class="space-y-2" >
-          <p><strong>Nazwa:</strong> {siteConfig.companyName} sp. z o.o.</p>
-          <p><strong>NIP:</strong> {siteConfig.company.NIP}</p>
-          <p><strong>KRS:</strong> {siteConfig.company.KRS}</p>
-          <p><strong>REGON:</strong> {siteConfig.company.REGON}</p>
-        </div>
-      </div>
-      <div>
-        <h4 class="font-semibold mb-3">Adres</h4>
-        <p>{siteConfig.address}</p>
-      </div>
-    </div> -->
+    // <!-- Informacje o firmie -->
+    // <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 border-b border-background-dark text-sm">
+    //   <div>
+    //     <h4 class="font-semibold mb-3">Dane firmy</h4>
+    //     <div class="space-y-2" >
+    //       <p><strong>Nazwa:</strong> {siteConfig.companyName} sp. z o.o.</p>
+    //       <p><strong>NIP:</strong> {siteConfig.company.NIP}</p>
+    //       <p><strong>KRS:</strong> {siteConfig.company.KRS}</p>
+    //       <p><strong>REGON:</strong> {siteConfig.company.REGON}</p>
+    //     </div>
+    //   </div>
+    //   <div>
+    //     <h4 class="font-semibold mb-3">Adres</h4>
+    //     <p>{siteConfig.address}</p>
+    //   </div>
+    // </div> -->
+  }
 
+    <center class="text-center text-sm">
+      <p>
+      © {currentYear} {siteConfig.companyName} sp. z o.o.
+      <br />
+      Wszystkie prawa zastrzeżone.
+      <br />
+      </p>
+      <p>
+      {legalMenu.map(item => (
+        <a 
+          href={item.link} 
+          class="text-sm hover:text-black  hover:underline transition-colors mx-2"
+        >
+          {item.name}
+        </a>
+      ))}  
+      </p>
+    </center>
     <!-- Footer bottom -->
-    <div class="mt-8 flex flex-col md:flex-row justify-between items-center">
+    <!-- <div class="mt-8 items-center">
       <div class="text-sm">
         © {currentYear} {siteConfig.companyName} sp. z o.o. Wszystkie prawa zastrzeżone.
+      </div>
+      <div class="text-sm mt-2">
+                 {legalMenu.map(item => (
+            <li>
+              <a 
+                href={item.link} 
+                class="text-sm hover:text-black  hover:underline transition-colors"
+              >
+                {item.name}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
       
       <nav class="mt-4 md:mt-0">
@@ -163,5 +198,5 @@ const currentYear = new Date().getFullYear();
         </ul>
       </nav>
     </div>
-  </div>
+  </div> -->
 </footer>
