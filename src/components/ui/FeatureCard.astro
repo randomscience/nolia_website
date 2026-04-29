@@ -6,6 +6,7 @@ import { marked } from 'marked';
 
 interface Card {
   title: string;
+  utitle: string;
   description: string;
   bgColor: string;   // CSS variable
   image: string;     // foreground SVG
@@ -24,15 +25,17 @@ const { cards } = Astro.props;
         {card.title}
       </h3>
 
+      <div class:list={["text-gray-500 text-small list-disc"]} style="list-style-type: circle" set:html={marked(card.utitle)} ></div>
+
       <!-- image container -->
       <div
-        class="relative w-full items-center max-w-[360px] aspect-square rounded-2xl flex"
+        class="relative w-full items-center justify-center max-w-[360px] aspect-[4/3] rounded-2xl flex"
         style={`background-color: var(${card.bgColor});`}
       >
         <Image
           src={card.image}
           alt={card.title}
-          class="relative z-10  h-3/4 object-contain"
+          class="relative z-10  w-4/5 object-contain"
         />
       </div>
 
@@ -40,7 +43,7 @@ const { cards } = Astro.props;
         {card.description}
       </p> */}
 
-    <div class:list={["pt-4 text-gray-500 text-small list-disc"]} style="list-style-type: circle" set:html={marked(card.description)} ></div>
+    <div class:list={["pt-8 text-gray-500 text-small list-disc"]} style="list-style-type: circle" set:html={marked(card.description)} ></div>
 
 
       <!-- button -->
