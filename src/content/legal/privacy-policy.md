@@ -9,17 +9,13 @@ seo:
 
 **APP.NOLIACARE.COM**
 
-**§ 1**
-
-**POSTANOWIENIA OGÓLNE**
+**§ 1 POSTANOWIENIA OGÓLNE**
 
 - Administratorem danych osobowych zbieranych za pośrednictwem Serwisu internetowego app.nolicare.com jest NOLIA Sp. z o.o. z siedzibą i adresem w Warszawie (kod pocztowy: 02-991) przy ulicy Bruzdowej 92 lok 4, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy W Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0001222372, posiadającą nr NIP 9512640718 oraz nr REGON 543935291, zwana dalej „Administratorem" i będąca jednocześnie „Usługodawcą".
 - Dane osobowe zbierane przez Administratora za pośrednictwem strony internetowej są przetwarzane zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych), zwane dalej **RODO.**
 - Wszelkie wyrazy lub wyrażenia pisane w treści niniejszej Polityki Prywatności dużą literą należy rozumieć zgodnie z ich definicją zawartą w Regulaminie Serwisu internetowego app.noliacare.com. Postanowienia niniejszej polityki odnoszące się do serwisu app.nolicare.com (zwanego dalej Serwisem).
 
-**§ 2**
-
-**RODZAJ PRZETWARZANYCH DANYCH OSOBOWYCH, CEL I ZAKRES ZBIERANIA DANYCH**
+**§ 2 RODZAJ PRZETWARZANYCH DANYCH OSOBOWYCH, CEL I ZAKRES ZBIERANIA DANYCH**
 
 - **CEL PRZETWARZANIA I PODSTAWA PRAWNA.** Administrator przetwarza dane osobowe Usługobiorców Serwisu w przypadku:
   - zapisania się do Newslettera w celu przesyłania informacji handlowych drogą elektroniczną. Dane osobowe są przetwarzane po wyrażeniu odrębnej zgody, na podstawie art. 6 ust. 1 lit. a) RODO,
@@ -43,9 +39,7 @@ seo:
   - zbierane dla oznaczonych, zgodnych z prawem celów i niepoddawane dalszemu przetwarzaniu niezgodnemu z tymi celami,
   - merytorycznie poprawne i adekwatne w stosunku do celów, w jakich są przetwarzane oraz przechowywane w postaci umożliwiającej identyfikację osób, których dotyczą, nie dłużej niż jest to niezbędne do osiągnięcia celu przetwarzania.
 
-**§ 3**
-
-**UDOSTĘPNIENIE DANYCH OSOBOWYCH**
+**§ 3 UDOSTĘPNIENIE DANYCH OSOBOWYCH**
 
 - Dane osobowe Usługobiorców przekazywane są dostawcom usług, z których korzysta Administrator przy prowadzeniu Serwisu, a w szczególności do:
   - hostingodawcy,
@@ -58,9 +52,7 @@ seo:
 - Dostawcy usług, o których mowa w pkt 1 niniejszego paragrafu, którym przekazywane są dane osobowe, w zależności od uzgodnień umownych i okoliczności, albo podlegają poleceniom Administratora co do celów i sposobów przetwarzania tych danych (podmioty przetwarzające) albo samodzielnie określają cele i sposoby ich przetwarzania (administratorzy).
 - Dane osobowe Usługobiorców są przechowywane wyłącznie na terenie Europejskiego Obszaru Gospodarczego (EOG), z zastrzeżeniem § 5 pkt 5 Polityki Prywatności.
 
-**§ 4**
-
-**PRAWO KONTROLI, DOSTĘPU DO TREŚCI WŁASNYCH DANYCH ORAZ ICH POPRAWIANIA**
+**§ 4 PRAWO KONTROLI, DOSTĘPU DO TREŚCI WŁASNYCH DANYCH ORAZ ICH POPRAWIANIA**
 
 - Osoba, której dane dotyczą, ma prawo dostępu do treści swoich danych osobowych oraz prawo ich sprostowania, usunięcia, ograniczenia przetwarzania, prawo do przenoszenia danych, prawo wniesienia sprzeciwu, prawo do cofnięcia zgody w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem.
 - Podstawy prawne żądania Usługobiorcy:
@@ -75,9 +67,7 @@ seo:
 - W sytuacji wystąpienia przez Usługobiorcę z uprawnieniem wynikającym z powyższych praw, Administrator spełnia żądanie albo odmawia jego spełnienia niezwłocznie, nie później jednak niż w ciągu miesiąca po jego otrzymaniu. Jeżeli jednak - z uwagi na skomplikowany charakter żądania lub liczbę żądań - Administrator nie będzie mógł spełnić żądania w ciągu miesiąca, spełni je w ciągu kolejnych dwóch miesięcy informując Usługobiorcę uprzednio w terminie miesiąca od otrzymania żądania - o zamierzonym przedłużeniu terminu oraz jego przyczynach.
 - W przypadku stwierdzenia, że przetwarzanie danych osobowych narusza przepisy RODO, osoba, której dane dotyczą, ma prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych.
 
-**§ 5**
-
-**PLIKI "COOKIES"**
+**§ 5 PLIKI "COOKIES"**
 
 - Strona Administratora używa plików „_cookies"_.
 - Instalacja plików „_cookies_" jest konieczna do prawidłowego świadczenia usług na stronie internetowej Serwisu. W plikach „_cookies_" znajdują się informacje niezbędne do prawidłowego funkcjonowania strony, a także dają one także możliwość opracowywania ogólnych statystyk odwiedzin strony internetowej.
@@ -91,9 +81,7 @@ seo:
   - wybór rodzajów plików cookies, na gromadzenie których wyraża zgodę tuż po wejściu na stronę Serwisu i pojawieniu się komunikatu dotyczącego cookies,
   - zmianę ustawień w oknie swojej przeglądarki. Szczegółowe informacje o możliwości i sposobach obsługi plików „_cookies_" dostępne są również w ustawieniach oprogramowania (przeglądarki internetowej).
 
-**§ 6**
-
-**USŁUGI DODATKOWE ZWIĄZANE Z AKTYWNOŚCIĄ UŻYTKOWNIKA W APLIKACJI**
+**§ 6 USŁUGI DODATKOWE ZWIĄZANE Z AKTYWNOŚCIĄ UŻYTKOWNIKA W APLIKACJI**
 
 - W Aplikacji wykorzystywane są tzw. wtyczki społecznościowe („wtyczki") serwisów społecznościowych. Wyświetlając stronę internetową Serwisu, zawierającą taką wtyczkę przeglądarka Usługobiorcy nawiąże bezpośrednie połączenie z serwerami Facebook, Instagram, oraz Google.
 - Zawartość wtyczki jest przekazywana przez danego usługodawcę bezpośrednio do przeglądarki Usługobiorcy i integrowana ze stroną. Dzięki tej integracji usługodawcy otrzymują informację, że przeglądarka Usługobiorcy wyświetliła stronę Serwisu, nawet jeśli Usługobiorca nie posiada profilu u danego usługodawcy, czy nie jest u niego akurat zalogowany. Taka informacja (wraz z adresem IP Usługobiorcy) jest przesyłana przez przeglądarkę bezpośrednio do serwera danego usługodawcy (niektóre serwery znajdują się w USA) i tam przechowywana.
@@ -106,9 +94,7 @@ seo:
 - Jeśli Usługobiorca nie chce, aby serwisy społecznościowe przyporządkowywały dane zebrane w trakcie odwiedzin na stronie Serwisu bezpośrednio jego profilowi w danym serwisie, to przed wizytą na stronie Serwisu musi wylogować się z tego serwisu. Usługobiorca może również całkowicie uniemożliwić załadowanie na stronie wtyczek stosując odpowiednie rozszerzenia dla przeglądarki np. blokowanie skryptów za pomocą „NoScript".
 - Administrator wykorzystuje na swojej stronie narzędzia remarketingowe tj. Google Ads. Ich używanie wiąże się wykorzystywaniem plików cookies firmy Google LLC. dotyczących usługi Google Ads. W ramach mechanizmu do zarządzania ustawieniami plików cookies Usługobiorca ma możliwość zdecydowania czy Usługodawca będzie mógł korzystać z Google Ads (administrator cookies zewnętrznego: Google LLC. z siedzibą w USA) w stosunku do niego
 
-**§ 7**
-
-**POSTANOWIENIA KOŃCOWE**
+**§ 7 POSTANOWIENIA KOŃCOWE**
 
 - Administrator stosuje środki techniczne i organizacyjne zapewniające ochronę przetwarzanych danych osobowych odpowiednią do zagrożeń oraz kategorii danych objętych ochroną, a w szczególności zabezpiecza dane przed ich udostępnieniem osobom nieupoważnionym, zabraniem przez osobę nieuprawnioną, przetwarzaniem z naruszeniem obowiązujących przepisów oraz zmianą, utratą, uszkodzeniem lub zniszczeniem.
 - Administrator udostępnia odpowiednie środki techniczne zapobiegające pozyskiwaniu i modyfikowaniu przez osoby nieuprawnione, danych osobowych przesyłanych drogą elektroniczną.

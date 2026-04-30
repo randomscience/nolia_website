@@ -6,17 +6,13 @@ seo:
   description: "Our terms of service outline the rules, guidelines, and legal agreements between you and our company."
 ---
 
-Regulamin serwisu internetowego
-app.noliacare.com
 **Przed rozpoczęciem korzystania z serwisu internetowego** **app.noliacare.com Użytkownicy są zobowiązani zapoznać się z treścią Regulaminu**
 
 **REGULAMIN SERWISU INTERNETOWEGO**
 
 **APP.NOLIACARE.COM**
 
-**§ 1**
-
-**POSTANOWIENIA OGÓLNE**
+**§ 1 POSTANOWIENIA OGÓLNE**
 
 - Serwis internetowy działający pod adresem app.noliacare.com prowadzony jest przez NOLIA Sp. z o.o. z siedzibą i adresem w Warszawie (kod pocztowy: 02-991) przy ulicy Bruzdowej 92 lok 4, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy W Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0001222372, posiadającą nr NIP 9512640718 oraz nr REGON 543935291, adres poczty elektronicznej (e-mail**):** <kontakt@noliacare.com>.
 - Serwis działa na zasadach określonych w niniejszym Regulaminie.
@@ -40,9 +36,7 @@ app.noliacare.com
   - ustawy o świadczeniu usług drogą elektroniczną z dnia 18 lipca 2002 r.
   - oraz inne właściwe przepisy prawa polskiego.
 
-**§ 2**
-
-**DEFINICJE**
+**§ 2 DEFINICJE**
 
 - **PANEL** - system teleinformatyczny prowadzony przez Usługodawcę, umożliwiający składanie Zamówień, dokonywanie Rezerwacji oraz zarządzanie kontami Użytkowników, np. Kontem Seniora, Kontem Placówki i Kontem Partnera zarówno za pośrednictwem Serwisu jak i Aplikacji.
 - **SERWIS** \- serwis internetowy Usługodawcy działający pod adresem app.noliacare.com umożliwiający Usługobiorcy korzystanie z wszystkich funkcjonalności dostępnych w ramach Panelu.
@@ -65,9 +59,7 @@ app.noliacare.com
 - **PROWIZJA** - kwota należna Usługodawcy od Partnera za zawarte za pośrednictwem Serwisu Umowy. Prowizja stanowi określony ułamek ceny, którą Placówka lub Senior zapłacił Partnerowi z tytułu zawartej Umowy.
 - **OKRES ROZLICZENIOWY** - okres, za który Partner będzie zobowiązany do zapłaty Prowizji z tytułu zawartych za pośrednictwem Serwisu Umów. Okres Rozliczeniowy trwa od 1 do ostatniego dnia każdego miesiąca kalendarzowego.
 
-**§ 3**
-
-**RODZAJ** **I** **ZAKRES** **USŁUG** **ELEKTRONICZNYCH**
+**§ 3 RODZAJ I ZAKRES USŁUG ELEKTRONICZNYCH**
 
 - Usługodawca umożliwia za pośrednictwem Serwisu korzystanie z Usług Elektronicznych takich jak:
   - Założenie Konta Użytkownika za pośrednictwem Formularza Rejestracji.
@@ -78,9 +70,7 @@ app.noliacare.com
 - Świadczenie Usług Elektronicznych na rzecz Usługobiorców w Serwisie odbywa się na warunkach określonych w Regulaminie.
 - Usługodawca ma prawo do zamieszczania na stronie Serwisu treści reklamowych. Treści te stanowią integralną część Serwisu i prezentowanych w nim materiałów.
 
-**§ 4**
-
-**WARUNKI ŚWIADCZENIA I ZAWIERANIA UMÓW O ŚWIADCZENIE USŁUG ELEKTRONICZNYCH**
+**§ 4 ARUNKI ŚWIADCZENIA I ZAWIERANIA UMÓW O ŚWIADCZENIE USŁUG ELEKTRONICZNYCH**
 
 - Świadczenie Usług Elektronicznych określonych w § 3 pkt od 1.1 do 1.4 Regulaminu przez Usługodawcę jest **nieodpłatne**. Usługa Elektroniczna, o której mowa w § 3 pkt 1.5 jest płatna w postaci Prowizji, którą Partner obowiązany jest uiścić na zasadach określonych w § 7 pkt 6.
 - Usługobiorca może korzystać z Usług Elektronicznych wskazanych w § 3 zarówno za pośrednictwem strony Serwisu jak i za pośrednictwem Aplikacji.
@@ -94,9 +84,7 @@ app.noliacare.com
 - Usługobiorca zobowiązany jest do wprowadzania danych zgodnych ze stanem faktycznym.
 - Usługobiorcę obowiązuje zakaz dostarczania treści o charakterze bezprawnym.
 
-**§ 5**
-
-**ŚWIADCZENIE USŁUG PRZEZ PARTNERÓW**
+**§ 5 ŚWIADCZENIE USŁUG PRZEZ PARTNERÓW**
 
 - **Informacje dotyczące Usługi oraz jej zamawiania.**
   - Partnerzy prowadzą sprzedaż Usług prezentowanych za pośrednictwem ich Profili oraz ogłoszeń w Serwisie,
@@ -118,9 +106,7 @@ app.noliacare.com
 - **Odstąpienie od umowy.**
   - Sposób i możliwość odstąpienia od umowy zawartej z Partnerem określają przepisy prawa powszechnie obowiązującego oraz warunki świadczenia usług ustalone przez każdego Partnera.
 
-**§ 6**
-
-**PARTNERZY**
+**§ 6 PARTNERZY**
 
 - - - 1. Partner, w celu prezentowania swoich Usług w Serwisie ma obowiązek założenia Konta Użytkownika.
          - W celu założenia Konta, Partner ma obowiązek:
@@ -137,9 +123,7 @@ app.noliacare.com
            - Prowizja powinna jest pobierana automatycznie podczas transakcji przeprowadzonej za pośrednictwem braki płatniczej lub na koniec okresu rozliczeniowego,
            - na wartość Prowizji Usługodawca wystawi Partnerowi fakturę VAT w terminie 7 dni roboczych od zakończenia Okresu Rozliczeniowego.
 
-**§ 8**
-
-**WARUNKI ROZWIĄZYWANIA UMÓW O ŚWIADCZENIE USŁUG ELEKTRONICZNYCH**
+**§ 8 WARUNKI ROZWIĄZYWANIA UMÓW O ŚWIADCZENIE USŁUG ELEKTRONICZNYCH**
 
 - Wypowiedzenie umowy o świadczenie Usługi Elektronicznej**:**
   - wypowiedzeniu może ulec umowa o świadczenie Usługi Elektronicznej o charakterze ciągłym i bezterminowym (np. prowadzenie Konta, Newsletter),
@@ -149,9 +133,7 @@ app.noliacare.com
 - Usługodawca i Usługobiorca mogą rozwiązać umowę o świadczenie Usługi Elektronicznej w Serwisie, w każdym czasie w drodze porozumienia stron.
 - Usługodawca może wypowiedzieć umowę o świadczenie Usługi Elektronicznej ze skutkiem natychmiastowym i bez wskazywania przyczyn poprzez przesłanie Usługobiorcy niebędącemu Konsumentem oświadczenia o wypowiedzeniu.
 
-**§ 9**
-
-**TRYB POSTĘPOWANIA REKLAMACYJNEGO**
+**§ 9 TRYB POSTĘPOWANIA REKLAMACYJNEGO**
 
 - Reklamacje związane ze świadczeniem Usług Elektronicznych przez Usługodawcę:
   - reklamacje związane ze świadczeniem Usług Elektronicznych za pośrednictwem Serwisu Usługobiorca może składać za pośrednictwem poczty elektronicznej na adres: <reklamacje@noliacare.com>
@@ -160,17 +142,13 @@ app.noliacare.com
   - odpowiedź Usługodawcy w sprawie reklamacji jest wysyłana na adres e-mail Usługobiorcy podany w zgłoszeniu reklamacyjnym lub w inny podany przez Usługodawcę sposób.
 - Usługodawca i Usługobiorca mogą rozwiązać umowę o świadczenie Usługi Elektronicznej w każdym czasie w drodze porozumienia stron.
 
-**§ 10**
-
-**WŁASNOŚĆ INTELEKTUALNA**
+**§ 10 WŁASNOŚĆ INTELEKTUALNA**
 
 - Wszystkie treści zamieszczone na stronie internetowej pod adresem app.nolicare.com korzystają z ochrony prawnoautorskiej i (z wyjątkiem treści zamieszczanych przez Usługobiorców oraz elementów wykorzystywanych na zasadach licencji, przeniesienia praw autorskich lub dozwolonego użytku) są własnością NOLIA Sp. z o.o. z siedzibą i adresem w Warszawie (kod pocztowy: 02-991) przy ulicy Bruzdowej 92 lok 4, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy W Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0001222372, posiadającą nr NIP 9512640718 oraz nr REGON 543935291. Usługobiorca ponosi pełną odpowiedzialność za szkodę wyrządzoną Usługodawcy, będącą następstwem użycia jakiejkolwiek zawartości strony app.noliacare.com, bez zgody Usługodawcy.
 - Jakiekolwiek wykorzystanie przez kogokolwiek, bez wyraźnej pisemnej zgody Usługodawcy, któregokolwiek z elementów składających się na treść oraz zawartość strony app.noliacare.com stanowi naruszenie prawa autorskiego przysługującego Usługodawcy i skutkuje odpowiedzialnością cywilnoprawną oraz karną.
 - Usługobiorca przesyłając Serwisowi zdjęcie oraz inne treści cyfrowe ponosi wyłączną odpowiedzialność za naruszenia autorskich praw majątkowych i pokrewnych oraz dóbr osobistych osób trzecich z tego tytułu, a w wypadku wystąpienia przez jakąkolwiek osobę z jakimikolwiek roszczeniami lub żądaniami w stosunku do Serwisu lub Usługodawcy w tym zakresie, zobowiązuję się zwolnić Serwis lub Usługodawcę z wszelkiej odpowiedzialności oraz do całkowitego zaspokojenia roszczeń osób trzecich.
 
-**§ 11**
-
-**ODPOWIEDZIALNOŚĆ**
+**§ 11 ODPOWIEDZIALNOŚĆ**
 
 - - - 1. Usługodawca dołoży wszelkich starań, aby dane dostępne w Serwisie były kompletne i aktualne oraz prezentowane z należytą starannością, z uwzględnieniem istniejących okoliczności faktycznych i prawnych, w granicach dopuszczalnych przez prawo.
          - Usługodawca wypełnia wszystkie obowiązki wymagane przez Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2022/2065 z dnia 19 października 2022 r. w sprawie jednolitego rynku usług cyfrowych oraz zmiany dyrektywy 2000/31/WE (akt o usługach cyfrowych) oraz wyznacza punkt kontaktowy w rozumieniu Aktu o Usługach Cyfrowych (DSA) w miejscu swej siedziby, o której mowa w § 2 niniejszego Regulaminu lub pod adresem e-mail: <kontakt@connect4kids.pl>.
@@ -188,17 +166,17 @@ app.noliacare.com
 - jasne wskazanie przez Usługobiorcę dokładnej elektronicznej lokalizacji informacji, takiej jak dokładny adres URL lub dokładne adresy URL oraz, w stosownych przypadkach, dodatkowe informacje umożliwiające identyfikację nielegalnych treści, stosownie do rodzaju treści i konkretnego rodzaju usługi hostingu;
 - imię i nazwisko lub nazwę oraz adres e-mail Usługobiorcy dokonującego zgłoszenia, z wyjątkiem zgłoszenia dotyczącego informacji uznawanych za związane z jednym z przestępstw, o których mowa w art. 3-7 dyrektywy 2011/93/UE;
 - oświadczenie potwierdzające powzięte w dobrej wierze przekonanie Usługobiorcy dokonującego zgłoszenia, że informacje i zarzuty w nim zawarte są prawidłowe i kompletne.
-  - - 1. Usługodawca potwierdzi otrzymanie zgłoszenia, o którym mowa w pkt 6 niniejszego paragrafu oraz poinformuje o pozytywnym lub negatywnym jego rozpatrzeniu bez zbędnej zwłoki.
-         - W przypadku uznania zgłoszenia, o którym mowa w pkt 6 za zasadne, Usługobiorca w miarę możliwości poinformuje Usługobiorcę odpowiedzialnego za naruszenie o fakcie dokonania moderacji opublikowanych przez niego treści wraz z wymaganym uzasadnieniem.
-         - W przypadku gdy Usługodawca poweźmie jakiekolwiek informacje dające podstawę do podejrzenia, że popełniono, popełnia się lub może dojść do popełnienia przestępstwa zagrażającego życiu lub bezpieczeństwu osoby lub osób, natychmiast informuje o swoim podejrzeniu organy ścigania lub organy sądowe wraz z uzasadnieniem swoich podejrzeń i przekazaniem znanych mu informacji.
-         - Usługodawca informuje Usługobiorców o istotnych zmianach Regulaminu.
-         - Usługobiorcy ponoszą pełną odpowiedzialność za złamanie prawa bądź szkodę wywołaną ich działaniami w Serwisie, w szczególności podaniem nieprawdziwych danych, ujawnieniem informacji niejawnej lub innych tajemnic ustawowo chronionych, naruszeniem dóbr osobistych lub praw autorskich oraz praw pokrewnych, a także przetwarzaniem danych osobowych Usługobiorców niezgodnie z celami Serwisu lub z naruszeniem przepisów ustawy o ochronie danych osobowych.
-         - Usługodawca zobowiązuje się w miarę możliwości informować z wyprzedzeniem Usługobiorców o możliwych zakłóceniach w funkcjonowaniu Serwisu, w szczególności o przerwach w dostępie.
-         - Usługodawca podejmuje wszelkie starania, aby zapewnić prawidłowe funkcjonowanie Serwisu pod względem formalnym i prawnym.
-         - Usługodawca będzie uwzględniał wszelkie zmiany przepisów prawnych i dokonywał aktualizacji Serwisu zgodnie w tymi zmianami.
-         - Aktualizacja systemu Serwisu dokonywana będzie przez Usługodawcę bez obciążania Usługobiorców dodatkowymi kosztami.
-         - Usługodawca podejmuje wszelkie środki, w celu ochrony danych Usługobiorców.
-         - **Usługodawca nie jest odpowiedzialny w stosunku do Usługobiorców będących Przedsiębiorcami:**
+- Usługodawca potwierdzi otrzymanie zgłoszenia, o którym mowa w pkt 6 niniejszego paragrafu oraz poinformuje o pozytywnym lub negatywnym jego rozpatrzeniu bez zbędnej zwłoki.
+- W przypadku uznania zgłoszenia, o którym mowa w pkt 6 za zasadne, Usługobiorca w miarę możliwości poinformuje Usługobiorcę odpowiedzialnego za naruszenie o fakcie dokonania moderacji opublikowanych przez niego treści wraz z wymaganym uzasadnieniem.
+- W przypadku gdy Usługodawca poweźmie jakiekolwiek informacje dające podstawę do podejrzenia, że popełniono, popełnia się lub może dojść do popełnienia przestępstwa zagrażającego życiu lub bezpieczeństwu osoby lub osób, natychmiast informuje o swoim podejrzeniu organy ścigania lub organy sądowe wraz z uzasadnieniem swoich podejrzeń i przekazaniem znanych mu informacji.
+- Usługodawca informuje Usługobiorców o istotnych zmianach Regulaminu.
+- Usługobiorcy ponoszą pełną odpowiedzialność za złamanie prawa bądź szkodę wywołaną ich działaniami w Serwisie, w szczególności podaniem nieprawdziwych danych, ujawnieniem informacji niejawnej lub innych tajemnic ustawowo chronionych, naruszeniem dóbr osobistych lub praw autorskich oraz praw pokrewnych, a także przetwarzaniem danych osobowych Usługobiorców niezgodnie z celami Serwisu lub z naruszeniem przepisów ustawy o ochronie danych osobowych.
+- Usługodawca zobowiązuje się w miarę możliwości informować z wyprzedzeniem Usługobiorców o możliwych zakłóceniach w funkcjonowaniu Serwisu, w szczególności o przerwach w dostępie.
+- Usługodawca podejmuje wszelkie starania, aby zapewnić prawidłowe funkcjonowanie Serwisu pod względem formalnym i prawnym.
+- Usługodawca będzie uwzględniał wszelkie zmiany przepisów prawnych i dokonywał aktualizacji Serwisu zgodnie w tymi zmianami.
+- Aktualizacja systemu Serwisu dokonywana będzie przez Usługodawcę bez obciążania Usługobiorców dodatkowymi kosztami.
+- Usługodawca podejmuje wszelkie środki, w celu ochrony danych Usługobiorców.
+- **Usługodawca nie jest odpowiedzialny w stosunku do Usługobiorców będących Przedsiębiorcami:**
 - za jakiekolwiek szkody i straty bezpośrednio lub pośrednio (łącznie ze szkodami z tytułu utraty zysków z prowadzenia przedsiębiorstwa, przerw w działalności przedsiębiorstwa lub utraty informacji gospodarczej oraz innymi szkodami o charakterze majątkowym), powstałe z powodu użycia, niemożliwości użycia lub błędnego działania oprogramowania Serwisu, szkody powstałe w wyniku wyłączenia lub awarii systemu teleinformatycznego, awarii sieci energetycznej,
 - w związku z niewłaściwym korzystaniem z Serwisu przez Usługobiorcę niebędącego Konsumentem oraz nieprawidłowym funkcjonowaniem sprzętu komputerowego, oprogramowania komputerowego czy też systemu łączności, za pomocą których Usługobiorca łączy się z systemem Serwisu,
 - za ewentualne szkody powstałe w wyniku błędów, awarii i przerw w funkcjonowaniu Serwisu lub spowodowane nieprawidłowym zapisem lub odczytem danych pobieranych przez Usługobiorców,
@@ -206,11 +184,9 @@ app.noliacare.com
 - za działania osób trzecich polegające na niezgodnym z powszechnie obowiązującym prawem lub Regulaminem wykorzystywaniu danych oraz materiałów umieszczonych w Serwisie,
 - za niemożność zalogowania się w systemie Serwisu spowodowaną w szczególności: jakością połączenia, awarią systemu teleinformatycznego lub sieci energetycznej, błędną konfiguracją oprogramowania Usługobiorców niebędących Konsumentami,
 - za skutki związane z utratą hasła.
-  - - 1. Usługobiorca ponosi odpowiedzialność za podanie adresu poczty elektronicznej, do którego nie ma dostępu, w szczególności adresu nieprawidłowego lub należącego do innego podmiotu.
+- Usługobiorca ponosi odpowiedzialność za podanie adresu poczty elektronicznej, do którego nie ma dostępu, w szczególności adresu nieprawidłowego lub należącego do innego podmiotu.
 
-**§ 12**
-
-**POSTANOWIENIA KOŃCOWE**
+**§ 12 POSTANOWIENIA KOŃCOWE**
 
 - Umowy zawierane poprzez Serwis zawierane są zgodnie z prawem polskim.
 - Zmiany dokonane w Regulaminie Serwisu przez Usługodawcę, wiążą Usługobiorcę, pod warunkiem, iż został on prawidłowo poinformowany o zmianach i nie wypowiedział umowy o świadczenie usług drogą elektroniczną w terminie 14 dni od dnia powiadomienia Usługobiorcy o zmianach przez Serwis.
