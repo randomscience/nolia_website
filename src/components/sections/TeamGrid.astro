@@ -19,13 +19,14 @@ const teamMembers = await getCollection('team', ({ data }) => {
 
 // Sort team members by order
 const sortedTeamMembers = teamMembers.sort((a, b) => a.data.order - b.data.order);
+const displayMembers = sortedTeamMembers.length === 1 ? Array(5).fill(sortedTeamMembers[0]) : sortedTeamMembers;
 ---
 
 <section class:list={['relative', paddingClass]}>
     <div class="site-container mx-auto px-4">
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 xl:gap-x-8 xl:gap-y-14">
             {
-                sortedTeamMembers.map((member, index) => (
+                displayMembers.map((member, index) => (
                     <div
                         class="flex flex-col group"
                         data-aos="fade-up"

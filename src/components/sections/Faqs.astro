@@ -47,7 +47,7 @@ const textColor = getTextColor(background);
                     />
                 )}
                 {title && <h2 data-aos="fade-up" class:list={["text-3xl font-bold mb-4", headlineColor]}>{title}</h2>}
-                {<div data-aos="fade-up" class:list={["text-lg", textColor]} set:html={marked(description)}></div>}
+                {description && <div data-aos="fade-up" class:list={["text-lg", textColor]} set:html={marked(description)}></div>}
             </div>
         )}
         

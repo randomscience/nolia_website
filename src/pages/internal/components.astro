@@ -9,19 +9,94 @@ import Select from '@components/ui/form/Select.astro';
 import Checkbox from '@components/ui/form/Checkbox.astro';
 import Radio from '@components/ui/form/Radio.astro';
 
-const title = 'Style Guide';
-const description = 'A style guide for Astro Basics';
+import Logos from '@components/sections/Logos.astro';
+import Faqs from '@components/sections/Faqs.astro';
+import RecentPosts from '@components/sections/RecentPosts.astro';
+import TeamGrid from '@components/sections/TeamGrid.astro';
+import { faqLists } from '@data/faqs';
+import { logoLists } from '@data/logos';
+
+import Hero from '@components/sections/Hero.astro';
+import FeatureCard from '@components/ui/FeatureCard.astro';
+import SplitPanel from '@components/sections/SplitPanel.astro';
+import Stats from '@components/sections/Stats.astro';
+import CtaBanner from '@components/sections/CtaBanner.astro';
+import heroImage from '@assets/images/hero.svg';
+
+const title = 'NOLIA Components Palette';
+const description = 'A style guide for NOLIA Components Palette';
 
 const heroContent = {
     title: title,
     description: description,
 }
 
+const moduleHeroContent = {
+    title: "Hero Module",
+    description: "This is the hero module description. It's meant to grab attention.",
+    heroImage: heroImage,
+    buttons: [
+        { text: "Primary Button", link: "#", variant: "primary" },
+        { text: "Secondary Button", link: "#", variant: "secondary" }
+    ]
+};
+
+const featureCards = [
+    {
+        title: "Feature 1",
+        utitle: "Subtitle 1",
+        description: "Description for feature 1",
+        bgColor: "--primary",
+        image: heroImage
+    },
+    {
+        title: "Feature 2",
+        utitle: "Subtitle 2",
+        description: "Description for feature 2",
+        bgColor: "--secondary",
+        image: heroImage
+    },
+    {
+        title: "Feature 3",
+        utitle: "Subtitle 3",
+        description: "Description for feature 3",
+        bgColor: "--accent",
+        image: heroImage
+    }
+];
+
+const splitPanelContent = {
+    eyebrow: "Split Panel",
+    headline: "This is a Split Panel",
+    subheadline: "It splits content and image",
+    description: "Great for alternating content sections down a page.",
+    image: { src: heroImage, alt: "Split Panel Image" },
+    buttons: [{ text: "Learn More", link: "#" }]
+};
+
+const statsContent = {
+    eyebrow: "Stats",
+    title: "Our Numbers",
+    description: "Here are some impressive statistics about our platform.",
+    stats: [
+        { value: 100, label: "Users" },
+        { value: 50, label: "Projects", suffix: "+" },
+        { value: 99, label: "Satisfaction", suffix: "%" }
+    ]
+};
+
+const ctaContent = {
+    eyebrow: "Get Started",
+    title: "Ready to dive in?",
+    description: "Join us today and experience the difference.",
+    button: { text: "Sign Up Now", link: "#", variant: "primary" }
+};
+
 const backgrounds = ['base', 'light', 'dark'] as const;
 
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} noindex={true}>
     <InnerHero content={heroContent} />
 
     {/* Colors Section - Show Once */}
@@ -221,6 +296,81 @@ const backgrounds = ['base', 'light', 'dark'] as const;
                             />
                         </div>
                     </div>
+                </section>
+
+                {/* Logos Section */}
+                <section id={`logos-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Logos</h2>
+                    <Logos 
+                        content={{
+                            eyebrow: "Trusted By",
+                            headline: "Our Partners",
+                            logos: logoLists.main.logos
+                        }}
+                        background={bg}
+                    />
+                </section>
+
+                {/* FAQs Section */}
+                <section id={`faqs-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>FAQs</h2>
+                    <Faqs 
+                        content={{
+                            eyebrow: "Questions",
+                            title: "Frequently Asked Questions",
+                            faqs: faqLists.main.faqs.slice(0, 3)
+                        }}
+                        background={bg}
+                    />
+                </section>
+
+                {/* Recent Posts Section */}
+                <section id={`recent-posts-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Recent Posts</h2>
+                    <RecentPosts 
+                        content={{
+                            eyebrow: "Blog",
+                            title: "Latest News",
+                        }}
+                        background={bg}
+                        postsToShow={3}
+                    />
+                </section>
+
+                {/* Team Section */}
+                <section id={`team-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Team</h2>
+                    <TeamGrid />
+                </section>
+
+                {/* Hero Section */}
+                <section id={`hero-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Hero Module</h2>
+                    <Hero content={moduleHeroContent} />
+                </section>
+
+                {/* Feature Cards Section */}
+                <section id={`feature-cards-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Feature Cards</h2>
+                    <FeatureCard cards={featureCards} />
+                </section>
+
+                {/* Split Panel Section */}
+                <section id={`split-panel-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Split Panel</h2>
+                    <SplitPanel content={splitPanelContent} background={bg} />
+                </section>
+
+                {/* Stats Section */}
+                <section id={`stats-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>Stats Module</h2>
+                    <Stats content={statsContent} background={bg} />
+                </section>
+
+                {/* CTA Banner Section */}
+                <section id={`cta-banner-${bg}`} class="mb-12">
+                    <h2 class={`text-2xl font-bold mb-6 ${getHeadlineColor(bg)}`}>CTA Banner</h2>
+                    <CtaBanner content={ctaContent} background={bg} />
                 </section>
             </div>
         </div>
