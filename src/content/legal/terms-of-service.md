@@ -24,6 +24,7 @@ seo:
 9. Partner jest zobowiązany do tego, aby treści opisowe ogłoszeń oraz wizytówek prezentowanych w Serwisie oraz ich dostępność były aktualne i zgodne ze stanem faktycznym. Treść ogłoszenia lub wizytówki powinna być przygotowana przez Partnera w sposób zgodny z rzeczywistością, rzetelny i kompletny oraz nie może wprowadzać w błąd Użytkowników, w szczególności co do istoty lub właściwości.
 10. W Serwisie obowiązuje zakaz prezentowania oraz świadczenia usług zabronionych przez przepisy powszechnie obowiązujące.
 11. Serwis stanowi system służący do:
+  
     11.1. prezentowania Usług przez Partnerów,
     
     11.2. rezerwowania Usług przez Placówki,
@@ -31,6 +32,7 @@ seo:
     11.3. zapisywania Uczestników na udział w określonej Usłudze poprzez Rezerwację.
 12. Wszystkie nazwy handlowe, nazwy produktów, firm i ich logo użyte na stronie internetowej Serwisu pod adresem należą do ich właścicieli i są używane wyłącznie w celach identyfikacyjnych. Mogą być one zastrzeżonymi znakami towarowymi. Wszystkie materiały, opisy i zdjęcia prezentowane na stronie internetowej Serwisu użyte są w celach informacyjnych.
 13. W sprawach nieuregulowanych w niniejszym Regulaminie mają zastosowanie przepisy:
+   
     13.1. kodeksu cywilnego,
     
     13.2. ustawy o prawach konsumenta z dnia 30 maja 2014 r.,
@@ -67,6 +69,7 @@ seo:
 **§ 3 RODZAJ I ZAKRES USŁUG ELEKTRONICZNYCH**
 
 1. Usługodawca umożliwia za pośrednictwem Serwisu korzystanie z Usług Elektronicznych takich jak:
+  
     1.1. Założenie Konta Użytkownika za pośrednictwem Formularza Rejestracji.
     
     1.2. Newsletter,
@@ -85,6 +88,7 @@ seo:
 2. Usługobiorca może korzystać z Usług Elektronicznych wskazanych w § 3 zarówno za pośrednictwem strony Serwisu jak i za pośrednictwem Aplikacji.
 3. Umowa o świadczenie Usługi Elektronicznej polegającej na prowadzeniu Konta zawierana jest na czas nieoznaczony.
 4. Wymagania techniczne niezbędne do współpracy z systemem teleinformatycznym, którym posługuje się Usługodawca:
+   
     4.1. komputer lub urządzenie mobilne z dostępem do Internetu,
     
     4.2. dostęp do poczty elektronicznej,
@@ -99,6 +103,7 @@ seo:
 **§ 5 ŚWIADCZENIE USŁUG PRZEZ PARTNERÓW**
 
 1. Informacje dotyczące Usługi oraz jej zamawiania.
+    
     1.1. Partnerzy prowadzą sprzedaż Usług prezentowanych za pośrednictwem ich Profili oraz ogłoszeń w Serwisie,
     
     1.2. informacje znajdujące się na stronie internetowej Serwisu nie stanowią oferty w rozumieniu przepisów prawa. Użytkownik, składając Zamówienie, składa ofertę kupna określonej Usługi na warunkach podanych w jej opisie,
@@ -109,16 +114,19 @@ seo:
     
     1.5. w celu złożenia Zamówienia, Użytkownik ma obowiązek rejestracji Konta w Serwisie,
 2. **Zawarcie Umowy.**
+   
     2.1. Do zawarcia Umowy, niezbędne jest wcześniejsze złożenie Zamówienia zgodnie z pkt 1.4 Regulaminu,
     
     2.2. potwierdzenie przyjęcia Zamówienia, o którym mowa w pkt 2.2 niniejszego paragrafu powoduje związanie Użytkownika jego Zamówieniem. Potwierdzenie otrzymania Zamówienia następuje poprzez przesłanie wiadomości e-mail, która zawiera potwierdzenie wszystkich istotnych elementów Zamówienia,
     
     2.3. każda Umowa będzie potwierdzana dowodem zakupu, który będzie wysyłany pocztą elektroniczna na adres mailowy Użytkownika podany podczas rejestracji.
 3. **Sposoby płatności.**
+    
     3.1. Usługodawca udostępnia płatność za pośrednictwem elektronicznego systemu płatności (bramka płatnicza),
     
     3.2. w przypadku płatności za pośrednictwem elektronicznego systemu płatności Placówka dokonuje zapłaty przed rozpoczęciem świadczenia (z góry) lub po zakończonym świadczeniu z danym okresie rozliczeniowym (z dołu). Elektroniczny system płatności umożliwia dokonanie płatności za pomocą szybkiego przelewu z wybranych polskich oraz zagranicznych banków.
 4. **Reklamacja.**
+    
     4.1. Niezgodność Usługi z Umową lub inne jej wady nie stanowią przedmiotu odpowiedzialności Usługodawcy,
     
     4.2. wszelkie roszczenia reklamacyjne powinny być kierowane do Partnera odpowiedzialnego za świadczenie danej Usługi,
@@ -131,6 +139,7 @@ seo:
 
 1. Partner, w celu prezentowania swoich Usług w Serwisie ma obowiązek założenia Konta Użytkownika.
 2. W celu założenia Konta, Partner ma obowiązek:
+    
     a) wejść w Formularz Rejestracji,
     
     b) wprowadzić wszystkie wymagane dane zgodnie ze stanem rzeczywistym,
@@ -143,6 +152,7 @@ seo:
 3. Zamieszczone w Ogłoszeniach/Wizytówkach informacje powinny być zgodne ze stanem rzeczywistym. Wszelkie naruszenia przepisów powszechnie obowiązujących oraz dóbr osobistych osób trzecich dokonane za pośrednictwem Formularza stanowią podstawę do usunięcia Ogłoszenia/Wizytówki lub Konta Partnera.
 4. Partner jest zobowiązany do wypełniania wszelkich obowiązków, które przepisy powszechnie obowiązujące nakładają na niego w związku ze sprzedażą Usług na odległość, zwłaszcza w zakresie ochrony przysługującej Konsumentom. Niewypełnianie tych obowiązków oraz odpowiedzialność z tego tytułu obciążają wyłącznie Partnera.
 5. Prowizja z tytułu zawarcia Umowy za pośrednictwem Serwisu.
+    
     a) Partner jest obowiązany do zapłaty Prowizji z tytułu każdej Umowy zawartej za pośrednictwem Serwisu,
     
     b) Prowizja stanowi 3 % Ceny, za którą sprzedana została Usługa,
@@ -154,6 +164,7 @@ seo:
 **§ 8 WARUNKI ROZWIĄZYWANIA UMÓW O ŚWIADCZENIE USŁUG ELEKTRONICZNYCH**
 
 1. Wypowiedzenie umowy o świadczenie Usługi Elektronicznej:
+    
     1.1. wypowiedzeniu może ulec umowa o świadczenie Usługi Elektronicznej o charakterze ciągłym i bezterminowym (np. prowadzenie Konta, Newsletter),
     
     1.2. Usługobiorca może wypowiedzieć umowę ze skutkiem natychmiastowym i bez wskazywania przyczyn poprzez usunięcie Konta w Serwisie,
@@ -167,6 +178,7 @@ seo:
 **§ 9 TRYB POSTĘPOWANIA REKLAMACYJNEGO**
 
 1. Reklamacje związane ze świadczeniem Usług Elektronicznych przez Usługodawcę:
+    
     1.1. reklamacje związane ze świadczeniem Usług Elektronicznych za pośrednictwem Serwisu Usługobiorca może składać za pośrednictwem poczty elektronicznej na adres: <reklamacje@noliacare.com>
     
     1.2. w powyższej wiadomości e-mail, należy podać jak najwięcej informacji i okoliczności dotyczących przedmiotu reklamacji, w szczególności rodzaj i datę wystąpienia nieprawidłowości oraz dane kontaktowe. Podane informacje znacznie ułatwią i przyspieszą rozpatrzenie reklamacji przez Usługodawcę,
@@ -187,6 +199,7 @@ seo:
 1. Usługodawca dołoży wszelkich starań, aby dane dostępne w Serwisie były kompletne i aktualne oraz prezentowane z należytą starannością, z uwzględnieniem istniejących okoliczności faktycznych i prawnych, w granicach dopuszczalnych przez prawo.
 2. Usługodawca wypełnia wszystkie obowiązki wymagane przez Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2022/2065 z dnia 19 października 2022 r. w sprawie jednolitego rynku usług cyfrowych oraz zmiany dyrektywy 2000/31/WE (akt o usługach cyfrowych) oraz wyznacza punkt kontaktowy w rozumieniu Aktu o Usługach Cyfrowych (DSA) w miejscu swej siedziby, o której mowa w § 2 niniejszego Regulaminu lub pod adresem e-mail: <kontakt@connect4kids.pl>.
 3. Niedopuszczalne jest zamieszczanie treści bezprawnych za pośrednictwem Serwisu (poprzez komentarze, opinie etc.), a także treści:
+    
     a) niezwiązane z tematyką Serwisu,
     
     b) bezpodstawnie naruszające dobre imię Usługodawcy,
@@ -198,6 +211,7 @@ seo:
 5. W przypadku automatycznego moderowania publikowanych przez Usługobiorców treści za pośrednictwem algorytmu, Usługobiorcy nie tracą uprawnienia do odwołania się od decyzji Usługodawcy. Odwołać można się za pośrednictwem adresu e-mail: <kontakt@connect4kids.pl>. Odwołując się należy opisać zwięźle zaistniały stan faktyczny oraz uzasadnić powody odwołania. Usługodawca rozpatrzy odwołanie w sposób wskazany przez przepisy Aktu o Usługach Cyfrowych w terminie 14 dni.
 6. Usługobiorca, który stwierdzi naruszenie zasad opisanych w niniejszym paragrafie ma możliwość zgłoszenia niedozwolonych treści publikowanych w Serwisie za pośrednictwem adresu e-mail: <kontakt@connect4kids.pl>.
 7. Zgłoszenie, o którym mowa w pkt 6, musi zawierać następujące elementy:
+    
     a) wystarczająco uzasadnione wyjaśnienie powodów, dla których Usługobiorca zarzuca, że odpowiednie informacje stanowią nielegalne treści;
     
     b) jasne wskazanie przez Usługobiorcę dokładnej elektronicznej lokalizacji informacji, takiej jak dokładny adres URL lub dokładne adresy URL oraz, w stosownych przypadkach, dodatkowe informacje umożliwiające identyfikację nielegalnych treści, stosownie do rodzaju treści i konkretnego rodzaju usługi hostingu;
@@ -216,6 +230,7 @@ seo:
 16. Aktualizacja systemu Serwisu dokonywana będzie przez Usługodawcę bez obciążania Usługobiorców dodatkowymi kosztami.
 17. Usługodawca podejmuje wszelkie środki, w celu ochrony danych Usługobiorców.
 18. **Usługodawca nie jest odpowiedzialny w stosunku do Usługobiorców będących Przedsiębiorcami:**
+    
     a) za jakiekolwiek szkody i straty bezpośrednio lub pośrednio (łącznie ze szkodami z tytułu utraty zysków z prowadzenia przedsiębiorstwa, przerw w działalności przedsiębiorstwa lub utraty informacji gospodarczej oraz innymi szkodami o charakterze majątkowym), powstałe z powodu użycia, niemożliwości użycia lub błędnego działania oprogramowania Serwisu, szkody powstałe w wyniku wyłączenia lub awarii systemu teleinformatycznego, awarii sieci energetycznej,
     
     b) w związku z niewłaściwym korzystaniem z Serwisu przez Usługobiorcę niebędącego Konsumentem oraz nieprawidłowym funkcjonowaniem sprzętu komputerowego, oprogramowania komputerowego czy też systemu łączności, za pomocą których Usługobiorca łączy się z systemem Serwisu,
@@ -237,6 +252,7 @@ seo:
 2. Zmiany dokonane w Regulaminie Serwisu przez Usługodawcę, wiążą Usługobiorcę, pod warunkiem, iż został on prawidłowo poinformowany o zmianach i nie wypowiedział umowy o świadczenie usług drogą elektroniczną w terminie 14 dni od dnia powiadomienia Usługobiorcy o zmianach przez Serwis.
 3. Wszelkie spory wynikłe między Usługodawcą, a Usługobiorcami będą rozstrzygane w pierwszej kolejności na drodze negocjacji, z intencją polubownego zakończenia sporu. Jeśli jednak nie byłoby to możliwe, lub też byłoby niesatysfakcjonujące dla którejkolwiek ze stron, spory będą rozstrzygane przez właściwy sąd powszechny, zgodnie z pkt 4 niniejszego paragrafu.
 4. Sądowe rozstrzyganie sporów:
+   
     4.1. ewentualne spory powstałe pomiędzy Usługodawcą, a Usługobiorcą będącym jednocześnie Konsumentem zostają poddane sądom właściwym zgodnie z przepisami kodeksu postępowania cywilnego z dnia 17 listopada 1964 r.,
   
     4.2. ewentualne spory powstałe pomiędzy Usługodawcą, a Usługobiorcą niebędącym jednocześnie Konsumentem zostają poddane sądowi właściwemu ze względu na miejsce siedziby Usługodawcy.

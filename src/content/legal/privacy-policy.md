@@ -18,6 +18,7 @@ seo:
 **§ 2 RODZAJ PRZETWARZANYCH DANYCH OSOBOWYCH, CEL I ZAKRES ZBIERANIA DANYCH**
 
 1. **CEL PRZETWARZANIA I PODSTAWA PRAWNA.** Administrator przetwarza dane osobowe Usługobiorców Serwisu w przypadku:
+ 
     1.1 zapisania się do Newslettera w celu przesyłania informacji handlowych drogą elektroniczną. Dane osobowe są przetwarzane po wyrażeniu odrębnej zgody, na podstawie art. 6 ust. 1 lit. a) RODO,
     
     1.2. rejestracji Konta Użytkownika w Serwisie w celu utworzenia indywidualnego konta i zarządzania tym Kontem na podstawie art. 6 ust. 1 lit. b) RODO (realizacja umowy o świadczenie usługi drogą elektroniczną zgodnie z Regulaminem Serwisu),
@@ -26,6 +27,7 @@ seo:
     
     1.4. skorzystania z Formularza Zamieszczania Ogłoszeń/Wizytówek w celu wykonania Umowy Sprzedaży na podstawie art. 6 ust. 1 lit. b) RODO (realizacja umowy sprzedaży).
 2. **RODZAJ PRZETWARZANYCH DANYCH OSOBOWYCH.** Usługobiorca podaje, w przypadku:
+  
     2.1. **Newsletter**: imię i nazwisko, adres e-mail,
     
     2.2. **Konta:** adres mailowy, imię i nazwisko, adres, numer telefonu, data urodzenia,
@@ -34,6 +36,7 @@ seo:
     
     2.4. **Formularza zamieszczania ogłoszeń/wizytówek:** imię i nazwisko, adres e-mail, numer telefonu.
 3. **OKRES ARCHIWIZACJI DANYCH OSOBOWYCH.** Dane osobowe Usługobiorców przechowywane są przez Administratora:
+   
     3.1. w przypadku, gdy podstawą przetwarzania danych jest wykonanie umowy, tak długo, jak jest to niezbędne do wykonania umowy, a po tym czasie przez okres odpowiadający okresowi przedawnienia roszczeń. Jeżeli przepis szczególny nie stanowi inaczej, termin przedawnienia wynosi lat sześć, a dla roszczeń o świadczenia okresowe oraz roszczeń związanych z prowadzeniem działalności gospodarczej - trzy lata,
     
     3.2. w przypadku, gdy podstawą przetwarzania danych jest zgoda, tak długo, aż zgoda nie zostanie odwołana, a po odwołaniu zgody przez okres czasu odpowiadający okresowi przedawnienia roszczeń jakie może podnosić Administrator i jakie mogą być podnoszone wobec niego. Jeżeli przepis szczególny nie stanowi inaczej, termin przedawnienia wynosi lat sześć, a dla roszczeń o świadczenia okresowe oraz roszczeń związanych z prowadzeniem działalności gospodarczej - trzy lata.
@@ -42,6 +45,7 @@ seo:
 6. Od Usługobiorców mogą być także gromadzone dane nawigacyjne, w tym informacje o linkach i odnośnikach, w które zdecydują się kliknąć lub innych czynnościach, podejmowanych w Serwisie. Podstawą prawną tego rodzaju czynności jest prawnie uzasadniony interes Administratora (art. 6 ust. 1 lit. f RODO), polegający na ułatwieniu korzystania z usług świadczonych drogą elektroniczną oraz na poprawie funkcjonalności tych usług.
 7. Podanie danych osobowych przez Usługobiorcę jest dobrowolne.
 8. Administrator dokłada szczególnej staranności w celu ochrony interesów osób, których dane dotyczą, a w szczególności zapewnia, że zbierane przez niego dane są:
+ 
     8.1. przetwarzane zgodnie z prawem,
     
     8.2. zbierane dla oznaczonych, zgodnych z prawem celów i niepoddawane dalszemu przetwarzaniu niezgodnemu z tymi celami,
@@ -51,6 +55,7 @@ seo:
 **§ 3 UDOSTĘPNIENIE DANYCH OSOBOWYCH**
 
 1. Dane osobowe Usługobiorców przekazywane są dostawcom usług, z których korzysta Administrator przy prowadzeniu Serwisu, a w szczególności do:
+   
     1.1. hostingodawcy,
     
     1.2. Usługobiorców, z którymi dany Usługobiorca zawarł umowę lub nawiązał kontakt w celu wykonania usługi
@@ -71,6 +76,7 @@ seo:
 
 1. Osoba, której dane dotyczą, ma prawo dostępu do treści swoich danych osobowych oraz prawo ich sprostowania, usunięcia, ograniczenia przetwarzania, prawo do przenoszenia danych, prawo wniesienia sprzeciwu, prawo do cofnięcia zgody w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem.
 2. Podstawy prawne żądania Usługobiorcy:
+  
     2.1. **Dostęp do danych** - art. 15 RODO.
     
     2.2. **Sprostowanie danych** - art. 16 RODO.
@@ -93,6 +99,7 @@ seo:
 1. Strona Administratora używa plików „_cookies"_.
 2. Instalacja plików „_cookies_" jest konieczna do prawidłowego świadczenia usług na stronie internetowej Serwisu. W plikach „_cookies_" znajdują się informacje niezbędne do prawidłowego funkcjonowania strony, a także dają one także możliwość opracowywania ogólnych statystyk odwiedzin strony internetowej.
 3. W ramach strony stosowane są dwa rodzaje plików „_cookies_": „sesyjne" oraz „stałe".
+   
     3.1. „_cookies_" „sesyjne" są plikami tymczasowymi, które przechowywane są w urządzeniu końcowym Usługobiorcy do czasu wylogowania (opuszczenia strony),
     
     3.2. „stałe" pliki „_cookies_" przechowywane są w urządzeniu końcowym Usługobiorcy przez czas określony w parametrach plików „_cookies_" lub do czasu ich usunięcia przez Usługobiorcę.
@@ -100,6 +107,7 @@ seo:
 5. Administrator wykorzystuje zewnętrzne pliki cookies w celu zbierania ogólnych i anonimowych danych statycznych za pośrednictwem narzędzi analitycznych Google Analytics (administrator cookies zewnętrznego: Google LLC. z siedzibą w USA).
 6. Pliki cookies mogą być również wykorzystywane przez sieci reklamowe, w szczególności sieć Google, w celu wyświetlania reklam dopasowanych do sposobu, w jaki Usługobiorca korzysta z Serwisu. W tym celu mogą zachować informację o ścieżce nawigacji Usługobiorcy lub czasie pozostawania na danej stronie.
 7. Usługobiorca ma prawo zadecydowania w zakresie dostępu plików „_cookies_" do swojego komputera poprzez:
+   
     7.1. wybór rodzajów plików cookies, na gromadzenie których wyraża zgodę tuż po wejściu na stronę Serwisu i pojawieniu się komunikatu dotyczącego cookies,
     
     7.2. zmianę ustawień w oknie swojej przeglądarki. Szczegółowe informacje o możliwości i sposobach obsługi plików „_cookies_" dostępne są również w ustawieniach oprogramowania (przeglądarki internetowej).
@@ -111,6 +119,7 @@ seo:
 3. Jeśli Usługobiorca zaloguje się do jednego z powyższych serwisów społecznościowych, to usługodawca ten będzie mógł bezpośrednio przyporządkować wizytę na stronie Serwisu do profilu Usługobiorcy w danym serwisie społecznościowym.
 4. Jeśli Usługobiorca użyje danej wtyczki np. klikając na przycisk „Lubię to" lub przycisk „Udostępnij", to odpowiednia informacja zostanie również przesłana bezpośrednio na serwer danego usługodawcy i tam zachowana.
 5. Cel i zakres gromadzenia danych oraz ich dalszego przetwarzania i wykorzystania przez usługodawców, jak również możliwość kontaktu oraz prawa Usługobiorcy w tym zakresie i możliwość dokonania ustawień zapewniających ochronę prywatności Usługobiorcy zostały opisane w polityce prywatności usługodawców:
+   
     5.1. [_https://www.facebook.com/policy.php_](https://www.facebook.com/policy.php)
     
     5.2. [_https://help.instagram.com/519522125107875?helpref=page_content_](https://help.instagram.com/519522125107875?helpref=page_content)
